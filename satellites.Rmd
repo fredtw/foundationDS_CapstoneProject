@@ -1,0 +1,117 @@
+---
+title: "Satellites"
+author: "Frederic TWAHIRWA"
+date: "11 février 2017"
+output: html_document
+---
+
+```{r}
+rm(list=ls(all=TRUE))
+```
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(tidyr)
+library(data.table)
+library(ggplot2)
+library(rworldmap)
+library(ggmap)
+library(geosphere)
+library(RColorBrewer) 
+```
+
+## R Markdown
+```{r}
+satellites<-fread(file='Database.csv', na.strings=c("", "NA"))
+
+#rename columns
+colnames(satellites)<-c("name_of_sat", "country_of_UN_registry", "owner", "country_of_owner", "users", "purpose",
+                        "setailed_of_purpose", "class_of_orbit", "type_of_orbit", "long_of_geo_orbit", "perigee", 
+                        "apogee", "eccentricity", "incrination", "period", "launch_mass", "dry_mass", "power",
+                        "date_of_launch", "expected_lifetime", "contractor", "country_of_contractor", "launch_site",
+                        "launch_vehicule", "COSPAR_number", "NORAD_number")
+# get class of each column
+lapply(satellites, class)
+
+# Add a column End of Life (EOL)
+satellites<- satellites %>% 
+        mutate (end_of_life= as.numeric( grepl(pattern=".*EOL.*", satellites$power)))
+
+# Add a column End of Life (BOL)
+satellites<- satellites %>% 
+        mutate (biginning_of_life= as.numeric( grepl(pattern=".*BOL.*", satellites$power)))
+
+#grep onlu numeric numbers in columns : power, expected_life_time 
+satellites$power<-as.numeric(gsub("([0-9]+).*$", "\\1", satellites$power))
+satellites$expected_lifetime<-as.numeric(gsub("[^\\d]+", "",satellites$expected_lifetime, perl=T ))
+
+#Interpret Date of Launch column as date and extract year of launch....
+satellites$date_of_launch<- as.Date(satellites$date_of_launch, "%m/%d/%Y")
+satellites$year_of_launch<-as.numeric(format(satellites$date_of_launch, "%Y"))
+satellites$month_of_launch<-as.numeric(format(satellites$date_of_launch, "%m"))
+satellites$day_of_launch<-as.numeric(format(satellites$date_of_launch, "%d"))
+satellites$weekday_of_launch<-weekdays(satellites$date_of_launch)
+
+ggplot(satellites, aes(weekday_of_launch,
+                       fill=factor(month_of_launch))) +
+  geom_bar()
+
+ggplot(satellites, aes(weekday_of_launch,
+                       fill=factor(month_of_launch))) +
+  geom_bar(position="dodge")
+
+
+number_by_wday_of_launch<-satellites %>% 
+        group_by(weekday_of_launch) %>% 
+        summarise(number_by_weekday=n()) %>% 
+        arrange(desc(number_by_weekday))
+
+number_by_month_of_launch<-satellites %>% 
+        group_by(month_of_launch) %>% 
+        summarise(number_by_month=n()) %>% 
+        arrange(desc(number_by_month))
+
+number_by_year_of_launch<-satellites %>% 
+        group_by(year_of_launch) %>% 
+        summarise(number_by_year=n()) %>% 
+        arrange(desc(year_of_launch))
+
+ggplot(number_by_year_of_launch, aes(x=year_of_launch, y=number_by_year,
+                                     size=number_by_year, col=number_by_year))+
+        geom_point(alpha=0.8)+
+        geom_smooth(se=F, linetype = 2)
+
+ggplot(satellites, aes(x=1, y=apogee, col=factor(class_of_orbit))) +
+        geom_point(alpha=.5, position=position_jitter(width=1)) 
+
+```
+
+
+
+```{r}
+origin_country<-group_by(satellites, country_of_UN_registry) %>% 
+        summarise(sat_number_from_orig_country=n()) %>% 
+        arrange(desc(sat_number_from_orig_country))
+
+names(origin_country)<- c("region", "sat_number_from_orig_country")
+
+all_states <- map_data("world")
+world_sat <-inner_join(all_states, origin_country, by="region")
+
+#plot all states with ggplot
+
+world_base <- ggplot(data = all_states, mapping = aes(x = long, y = lat, group = group)) + 
+  coord_fixed(1.5) + 
+  geom_polygon(color = "white", fill = "gray")
+
+world_base
+World_n_sat<-world_base +
+        geom_polygon(data = world_sat, aes(fill = sat_number_from_orig_country), color = "white")+
+        #scale_fill_continuous(name = "number satellite per Country")+ 
+        scale_fill_gradientn(colours = rev(rainbow(7)),
+                         breaks = c(10, 50, 100, 200, 300, 400),
+                         trans = "log10")
+       
+World_n_sat
+```
+
