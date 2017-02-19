@@ -6,7 +6,9 @@ output: html_document
 ---
 
 ```{r}
+
 rm(list=ls(all=TRUE))
+
 ```
 
 ```{r setup, include=FALSE}
@@ -19,45 +21,88 @@ library(ggmap)
 library(geosphere)
 library(RColorBrewer) 
 ```
+Data cleaning 
+The data set required some transformations. 
+- rename columns 
+- remove strings in numerical columns 
+- mutate news columns to keep informations removed in numerical culumns such as "end of life"" or "biginning of life""
+- NR country as country of UN registry is replaced by the country owner name
 
-## R Markdown
+
 ```{r}
+
 satellites<-fread(file='Database.csv', na.strings=c("", "NA"))
 
 #rename columns
 colnames(satellites)<-c("name_of_sat", "country_of_UN_registry", "owner", "country_of_owner", "users", "purpose",
                         "setailed_of_purpose", "class_of_orbit", "type_of_orbit", "long_of_geo_orbit", "perigee", 
                         "apogee", "eccentricity", "incrination", "period", "launch_mass", "dry_mass", "power",
-                        "date_of_launch", "expected_lifetime", "contractor", "country_of_contractor", "launch_site",
+                        "date_of_launch", "expected_lifetime", "contractor", "country_of_contractor","launch_site",
                         "launch_vehicule", "COSPAR_number", "NORAD_number")
+
 # get class of each column
 lapply(satellites, class)
 
+satellites$launch_mass<- as.numeric(satellites$launch_mass)
+satellites$expected_lifetime<- as.numeric(satellites$expected_lifetime)
 # Add a column End of Life (EOL)
 satellites<- satellites %>% 
         mutate (end_of_life= as.numeric( grepl(pattern=".*EOL.*", satellites$power)))
+satellites$end_of_life <- as.numeric(satellites$end_of_life | grepl(pattern=".*EOL.*", satellites$dry_mass))
 
-# Add a column End of Life (BOL)
+# Add a column biginning  of Life (BOL)
 satellites<- satellites %>% 
         mutate (biginning_of_life= as.numeric( grepl(pattern=".*BOL.*", satellites$power)))
+satellites$biginning_of_life <- as.numeric(satellites$biginning_of_life | grepl(pattern=".*BOL.*", satellites$dry_mass))
 
-#grep onlu numeric numbers in columns : power, expected_life_time 
+#grep only numeric numbers in columns : power, expected_life_time 
 satellites$power<-as.numeric(gsub("([0-9]+).*$", "\\1", satellites$power))
-satellites$expected_lifetime<-as.numeric(gsub("[^\\d]+", "",satellites$expected_lifetime, perl=T ))
+#satellites$expected_lifetime<-as.numeric(gsub("[^\\d]+", "",satellites$expected_lifetime, perl=T ))
+satellites$dry_mass<-as.numeric(gsub("([0-9]+).*$", "\\1", satellites$dry_mass))
+
 
 #Interpret Date of Launch column as date and extract year of launch....
-satellites$date_of_launch<- as.Date(satellites$date_of_launch, "%m/%d/%Y")
-satellites$year_of_launch<-as.numeric(format(satellites$date_of_launch, "%Y"))
-satellites$month_of_launch<-as.numeric(format(satellites$date_of_launch, "%m"))
-satellites$day_of_launch<-as.numeric(format(satellites$date_of_launch, "%d"))
-satellites$weekday_of_launch<-weekdays(satellites$date_of_launch)
+satellites$date_of_launch <- as.Date(satellites$date_of_launch, "%m/%d/%Y")
+satellites$year_of_launch <- as.numeric(format(satellites$date_of_launch, "%Y"))
+satellites$month_of_launch <- as.numeric(format(satellites$date_of_launch, "%m"))
+satellites$day_of_launch <- as.numeric(format(satellites$date_of_launch, "%d"))
+satellites$weekday_of_launch <- weekdays(satellites$date_of_launch)
 
-ggplot(satellites, aes(weekday_of_launch,
-                       fill=factor(month_of_launch))) +
+# the system (function weekday) return the days of the week in French , I convert them manally in English
+satellites$weekday_of_launch<-gsub("lundi","1_Monday", satellites$weekday_of_launch)
+satellites$weekday_of_launch<-gsub("mardi","2_Tuesday", satellites$weekday_of_launch)
+satellites$weekday_of_launch<-gsub("mercredi","3_Wednesday", satellites$weekday_of_launch)
+satellites$weekday_of_launch<-gsub("jeudi","4_Thursday", satellites$weekday_of_launch)
+satellites$weekday_of_launch<-gsub("vendredi","5_Friday", satellites$weekday_of_launch)
+satellites$weekday_of_launch<-gsub("samedi","6_Saturday", satellites$weekday_of_launch)
+satellites$weekday_of_launch<-gsub("dimanche","7_Sunday", satellites$weekday_of_launch)
+
+```
+
+Exploring data 
+ - recency : based on the dataset 438 satellites exceed their expected life time
+ -  activitities by days and months : There are far few satellites launched in January while the peack of activity lies on Thusday in June
+
+```{r}
+
+# add a new column to highliht the satellite recency  and verify if there are satellites which ecxeeds their expected life delay 
+# 438 sateliites exceed their expeted life delay
+satellites$years_since <- as.numeric(2017- satellites$year_of_launch) 
+satellites$exceed_expected_life <-as.numeric (satellites$years_since > satellites$expected_lifetime)
+n_sat_exceed_expected_life <- sum (satellites$exceed_expected_life, na.rm=TRUE)
+
+#replace NR by noum of owner country
+satellites$country_of_UN_registry[which(satellites$country_of_UN_registry=="NR")]<-
+        satellites$country_of_owner[satellites$country_of_UN_registry=="NR"]
+
+
+ggplot(satellites, aes(weekday_of_launch, fill=factor(month_of_launch))) +
   geom_bar()
 
-ggplot(satellites, aes(weekday_of_launch,
-                       fill=factor(month_of_launch))) +
+ggplot(satellites, aes(weekday_of_launch, fill=factor(month_of_launch))) +
+  geom_bar(position="dodge")
+
+ggplot(satellites, aes(month_of_launch, fill=factor(weekday_of_launch))) +
   geom_bar(position="dodge")
 
 
@@ -86,7 +131,9 @@ ggplot(satellites, aes(x=1, y=apogee, col=factor(class_of_orbit))) +
 
 ```
 
-
+Exploring data 
+ - number of active satellites by country
+ - number of active satellites by launch site
 
 ```{r}
 origin_country<-group_by(satellites, country_of_UN_registry) %>% 
@@ -110,8 +157,45 @@ World_n_sat<-world_base +
         #scale_fill_continuous(name = "number satellite per Country")+ 
         scale_fill_gradientn(colours = rev(rainbow(7)),
                          breaks = c(10, 50, 100, 200, 300, 400),
-                         trans = "log10")
+                         trans = "log10")+
+        theme_bw()
        
 World_n_sat
 ```
 
+
+
+```{r}
+site_of_launch <-satellites %>% 
+        group_by (launch_site) %>%
+        summarise(sat_number_by_site=n(), min_mass= min (launch_mass, na.rm=TRUE),
+                  max_mass = max (launch_mass, na.rm=TRUE), mean_mass = mean(launch_mass, na.rm=TRUE),
+                  sd_mass = sd(launch_mass, na.rm = TRUE))  %>%
+        top_n(10, sat_number_by_site) %>% 
+        arrange (desc (sat_number_by_site)) %>% 
+        mutate(percentage = round(100*sat_number_by_site / sum(sat_number_by_site),1)) %>% 
+        mutate(pos=cumsum(sat_number_by_site)-sat_number_by_site /2)
+        
+bp_site = ggplot(site_of_launch, aes(x= factor(1), y = sat_number_by_site, fill = factor(launch_site)))+
+        geom_bar(width=1, stat="identity") + 
+        ggtitle( "Where active satellites are launched") +
+        coord_polar("y") + 
+        geom_text(aes(y=pos, label=paste (percentage, "%", sep="")))
+
+
+bp_site
+
+```
+
+- purpose
+
+```{r}
+sat_users <- satellites %>% 
+        group_by (users) %>%
+        summarise (sat_number_by_users=n(), min_exepect_life = round(min (expected_lifetime, na.rm=TRUE),1),
+                  max_expect_life = round(max (expected_lifetime, na.rm=TRUE),1),
+                  mean_expect_life = round(mean(expected_lifetime, na.rm=TRUE),1),
+                  sd_expect_life = round(sd(expected_lifetime, na.rm = TRUE),1))  %>%
+        arrange (desc (sat_number_by_users))
+
+```
