@@ -187,9 +187,17 @@ bp_site
 
 ```
 
-- purpose
+- Exploring data 
+ - display number of satellites given their expected life and highlight their distribution based on their users and class of orbit
+ - This information can help in dealing with missing value
 
 ```{r}
+ggplot(satellites, aes(x=expected_lifetime, fill=users)) +
+    geom_histogram(binwidth=1, alpha=.5, position="identity")
+
+ggplot(satellites, aes(x=expected_lifetime, fill=class_of_orbit)) +
+    geom_histogram(binwidth=1, alpha=.5, position="identity")
+
 sat_users <- satellites %>% 
         group_by (users) %>%
         summarise (sat_number_by_users=n(), min_exepect_life = round(min (expected_lifetime, na.rm=TRUE),1),
@@ -197,5 +205,36 @@ sat_users <- satellites %>%
                   mean_expect_life = round(mean(expected_lifetime, na.rm=TRUE),1),
                   sd_expect_life = round(sd(expected_lifetime, na.rm = TRUE),1))  %>%
         arrange (desc (sat_number_by_users))
+
+sat_class <- satellites %>% 
+        group_by (class_of_orbit) %>%
+        summarise (number_by_class=n(), min_exepect_life = round(min (expected_lifetime, na.rm=TRUE),1),
+                  max_expect_life = round(max (expected_lifetime, na.rm=TRUE),1),
+                  mean_expect_life = round(mean(expected_lifetime, na.rm=TRUE),1),
+                  sd_expect_life = round(sd(expected_lifetime, na.rm = TRUE),1))  %>%
+        arrange (desc (number_by_class))
+
+```
+
+
+
+
+```{r}
+sat_expected_life <- satellites %>% 
+        filter (!is.na(expected_lifetime))
+hist(sat_expected_life$expected_lifetime)
+
+linreg_users=lm(expected_lifetime~users,data=sat_expected_life)
+cor(linreg_users$fitted.values,sat_expected_life$expected_lifetime)
+plot(sat_expected_life$expected_lifetime,linreg_users$fitted.values)
+hist(linreg_users$fitted.values)
+
+linreg_class=lm(expected_lifetime~class_of_orbit,data=sat_expected_life)
+cor(linreg_class$fitted.values,sat_expected_life$expected_lifetime)
+plot(sat_expected_life$expected_lifetime,linreg_class$fitted.values)
+hist(linreg_class$fitted.values)
+
+summary(linreg_users)
+summary(linreg_class)
 
 ```
