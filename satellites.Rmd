@@ -20,6 +20,7 @@ library(rworldmap)
 library(ggmap)
 library(geosphere)
 library(RColorBrewer) 
+library(forecast)
 ```
 Data cleaning 
 The data set required some transformations. 
@@ -63,7 +64,7 @@ satellites$dry_mass<-as.numeric(gsub("([0-9]+).*$", "\\1", satellites$dry_mass))
 
 #Interpret Date of Launch column as date and extract year of launch....
 satellites$date_of_launch <- as.Date(satellites$date_of_launch, "%m/%d/%Y")
-satellites$year_of_launch <- as.numeric(format(satellites$date_of_launch, "%Y"))
+satellites$year_of_launch <- as.integer(format(satellites$date_of_launch, "%Y"))
 satellites$month_of_launch <- as.numeric(format(satellites$date_of_launch, "%m"))
 satellites$day_of_launch <- as.numeric(format(satellites$date_of_launch, "%d"))
 satellites$weekday_of_launch <- weekdays(satellites$date_of_launch)
@@ -237,4 +238,119 @@ hist(linreg_class$fitted.values)
 summary(linreg_users)
 summary(linreg_class)
 
+```
+
+Time series
+- try to forecast number of satellites launched in 2016 given satellites (actives) in orbit launched in 11 previous years
+- 
+
+```{r}
+
+sat_by_year <- satellites %>% 
+        group_by(year_of_launch) %>% 
+        filter ( year_of_launch>=2005 & year_of_launch < 2016) %>% 
+        summarise (n_by_year=n())
+
+timeseries_sat <- ts (sat_by_year[,2], start=2005, end=2015)
+ts.plot (timeseries_sat)
+
+#autocolrrelation 
+acf(timeseries_sat, plot=FALSE) # acf [1]= 0.653 acf [2]= 0.351
+n_sat_change <- diff (timeseries_sat)
+
+#autoreggressive 
+AR_sat<- arima (timeseries_sat, order=c(1,0,0)) 
+print (AR_sat) # slope :1 , intercept: 252.3669, variance : 278.8
+
+AR_sat_change <- arima (n_sat_change, order=c(1,0,0))
+
+ts.plot(timeseries_sat)
+AR_sat_fitted <- timeseries_sat- residuals(AR_sat)
+points(AR_sat_fitted, type = "l", col = 2, lty = 2)
+
+predict_AR_sat <-predict(AR_sat_fitted, 1) # 149
+
+# Moving average
+n_sat_change <- diff (timeseries_sat)
+
+ts.plot(n_sat_change)
+MA_sat_change <-arima (n_sat_change, order=c(0,0,1)) # slope =0.8349 , intercept=90.88, variance : 771
+MA_sat_change_fitted <- n_sat_change - residuals(MA_sat_change)
+
+points(MA_sat_change_fitted, type = "l", col = 2, lty = 2)
+predict_MA_sat <-predict(MA_sat_change, 1)
+print (predict_MA_sat)
+
+MA_sat <-arima (timeseries_sat, order=c(0,0,1)) # slope =0.8349 , intercept=90.88, variance : 771
+ts.plot(timeseries_sat)
+MA_sat_fitted <- timeseries_sat - residuals(MA_sat)
+points(MA_sat_fitted, type = "l", col = 2, lty = 2)
+
+predict_MA_sat1 <-predict(MA_sat_fitted, 1) #110.9
+print (predict_MA_sat1)
+
+# comparison between AR and MA
+
+AIC(AR_sat_change) # 81.98
+AIC(MA_sat_change) # 82.04
+
+BIC(AR_sat_change) # 82.89
+BIC(MA_sat_change) # 82.95
+
+```
+Time series
+- try to forecast number of satellites launched in 2016 given satellites (actives) in orbit launched in 5 previous years
+
+
+```{r}
+sat_by_year <- satellites %>% 
+        group_by(year_of_launch) %>% 
+        filter ( year_of_launch>=2010 & year_of_launch < 2016) %>% 
+        summarise (n_by_year=n())
+
+timeseries_sat <- ts (sat_by_year[,2], start=2010, end=2015)
+ts.plot (timeseries_sat)
+
+#autocolrrelation 
+acf(timeseries_sat, plot=FALSE) # acf [1]= 0.491 acf [2]= 0.055
+n_sat_change <- diff (timeseries_sat)
+
+#autoreggressive 
+AR_sat<- arima (timeseries_sat, order=c(1,0,0)) 
+print (AR_sat) # slope : 0.846 , intercept: 121.023, variance : 517.2
+
+AR_sat_change <- arima (n_sat_change, order=c(1,0,0))
+
+ts.plot(timeseries_sat)
+AR_sat_fitted <- timeseries_sat- residuals(AR_sat)
+points(AR_sat_fitted, type = "l", col = 2, lty = 2)
+
+predict_AR_sat <-predict(AR_sat_fitted, 1) # 145.5
+
+# Moving average
+n_sat_change <- diff (timeseries_sat)
+
+ts.plot(n_sat_change)
+MA_sat_change <-arima (n_sat_change, order=c(0,0,1)) # slope =-0.9998 , intercept=20.14, variance : 91.45
+MA_sat_change_fitted <- n_sat_change - residuals(MA_sat_change)
+
+points(MA_sat_change_fitted, type = "l", col = 2, lty = 2)
+predict_MA_sat <-predict(MA_sat_change, 1)
+print (predict_MA_sat) #13.99 
+
+MA_sat <-arima (timeseries_sat, order=c(0,0,1)) # slope =0.68 , intercept= 117.9, variance : 747
+ts.plot(timeseries_sat)
+MA_sat_fitted <- timeseries_sat - residuals(MA_sat)
+points(MA_sat_fitted, type = "l", col = 2, lty = 2)
+
+predict_MA_sat1 <-predict(MA_sat_fitted, 1) #113.58
+print (predict_MA_sat1)
+
+# comparison between AR and MA
+
+AIC(AR_sat_change) # 45.07
+AIC(MA_sat_change) # 44.55
+
+BIC(AR_sat_change) # 43.09
+BIC(MA_sat_change) # 82.38
 ```
