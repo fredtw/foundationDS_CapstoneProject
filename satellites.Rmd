@@ -42,7 +42,7 @@ colnames(satellites)<-c("name_of_sat", "country_of_UN_registry", "owner", "count
                         "launch_vehicule", "COSPAR_number", "NORAD_number")
 
 # get class of each column
-lapply(satellites, class)
+#lapply(satellites, class)
 
 satellites$launch_mass<- as.numeric(satellites$launch_mass)
 satellites$expected_lifetime<- as.numeric(satellites$expected_lifetime)
@@ -82,7 +82,7 @@ satellites$weekday_of_launch<-gsub("dimanche","7_Sunday", satellites$weekday_of_
 
 Exploring data 
  - recency : based on the dataset 438 satellites exceed their expected life time
- -  activitities by days and months : There are far few satellites launched in January while the peack of activity lies on Thusday in June
+ - activitities by days and months :  the finding is that there are far few satellites launched in January while the peack of activity lies on Thusday  (by day) and in June (by month)
 
 ```{r}
 
@@ -96,15 +96,27 @@ n_sat_exceed_expected_life <- sum (satellites$exceed_expected_life, na.rm=TRUE)
 satellites$country_of_UN_registry[which(satellites$country_of_UN_registry=="NR")]<-
         satellites$country_of_owner[satellites$country_of_UN_registry=="NR"]
 
+theme1 <- theme (plot.title = element_text(color="blue", size=14, hjust =0.5, face="bold.italic"),
+             axis.title.x = element_text(color="blue", size=12, face="bold"),
+             axis.title.y = element_text(color="blue", size=12, face="bold"))
 
 ggplot(satellites, aes(weekday_of_launch, fill=factor(month_of_launch))) +
-  geom_bar()
+        geom_bar() + 
+        ggtitle( "satellites launched by weekday and month") +
+        labs(x="The weekday of launch", y="Number of satellites") +  
+        theme1
 
 ggplot(satellites, aes(weekday_of_launch, fill=factor(month_of_launch))) +
-  geom_bar(position="dodge")
+        geom_bar(position="dodge") +
+        ggtitle( "satellites launched by weekday and month") +
+        labs(x ="Country of UN registry",y ="Number of satellites") +
+        theme1
 
-ggplot(satellites, aes(month_of_launch, fill=factor(weekday_of_launch))) +
-  geom_bar(position="dodge")
+ggplot(satellites, aes(month_of_launch, fill=factor(weekday_of_launch))) + 
+        geom_bar(position="dodge") + 
+        ggtitle( "satellites launched by weekday") +
+        labs(x ="Country of UN registry", y ="Number of satellites") +
+        theme1
 
 
 number_by_wday_of_launch<-satellites %>% 
@@ -125,22 +137,94 @@ number_by_year_of_launch<-satellites %>%
 ggplot(number_by_year_of_launch, aes(x=year_of_launch, y=number_by_year,
                                      size=number_by_year, col=number_by_year))+
         geom_point(alpha=0.8)+
-        geom_smooth(se=F, linetype = 2)
+        geom_smooth(se=F, linetype = 2)+
+        ggtitle( "actives satellites in orbit up to 2016") + 
+        labs( x="launch year", y="Number launched by year") +
+        theme1
+        
 
 ggplot(satellites, aes(x=1, y=apogee, col=factor(class_of_orbit))) +
         geom_point(alpha=.5, position=position_jitter(width=1)) 
 
 ```
 
-Exploring data 
+EXPLORING DATA SEGMENTATION 
  - number of active satellites by country
- - number of active satellites by launch site
+
+ 
+ Findings : 
+ - 38.4% of satellites are under the sole USA Flag
+ - Chine is in second position, and trying to catch up in the area of satellites in orbit
+ - 7 countries have at least 40 actives satellites on orbit
+ - 23 satellites are at least under the flg of two countries
 
 ```{r}
-origin_country<-group_by(satellites, country_of_UN_registry) %>% 
+origin_country<- satellites %>% 
+        group_by(country_of_UN_registry) %>% 
         summarise(sat_number_from_orig_country=n()) %>% 
+        arrange(desc(sat_number_from_orig_country)) %>% 
+        mutate (percent=round(100*sat_number_from_orig_country / sum (sat_number_from_orig_country),1))
+
+share_sat<- satellites %>% 
+        group_by(country_of_UN_registry) %>% 
+        filter(grepl("/", country_of_UN_registry)) %>% 
+        summarise(sat_number_from_orig_country=n()) %>% 
+        arrange(desc(sat_number_from_orig_country)) %>% 
+        mutate (percent=round(100*sat_number_from_orig_country / sum (sat_number_from_orig_country),1))
+
+n_of_shared_sat <- sum (share_sat$sat_number_from_orig_country)
+
+# countries that have few satellites in orbit less than 40 
+country_low_power <- satellites %>% 
+        group_by(country_of_UN_registry) %>% 
+        summarise(sat_number_from_orig_country=n()) %>% 
+        filter (sat_number_from_orig_country < 40) %>%  # the threshold is set @ 40 satellites 
         arrange(desc(sat_number_from_orig_country))
 
+n_low_power_countries <- sum (country_low_power$sat_number_from_orig_country)
+
+# countries that have more 40 satellites in orbit 
+country_high_power <- satellites %>% 
+        group_by(country_of_UN_registry) %>% 
+        summarise(sat_number_from_orig_country=n()) %>% 
+        filter (sat_number_from_orig_country >= 40) %>% 
+        arrange(-sat_number_from_orig_country) %>% 
+        rbind (c("Others countries ", n_low_power_countries))
+
+
+# visualizing the share umbalance and the USA power
+share_sat_plot <- ggplot(country_high_power,
+                         aes(x=reorder(country_of_UN_registry, -as.numeric(sat_number_from_orig_country)),
+                                                 y = as.numeric(sat_number_from_orig_country))) +                          geom_bar(stat="identity", fill="steelblue") + 
+        geom_text(aes(label=sat_number_from_orig_country), vjust=1.5, color="white", size=4) + 
+        ggtitle( "Satellites distribution by county") +
+        scale_x_discrete(name ="Country of UN registry") +  # rename x axis
+        scale_y_discrete(name ="Number of satellites") + # rename y axis
+        theme_minimal() 
+       
+
+share_sat_plot
+
+US_vs_chine <- satellites %>% 
+        group_by(country_of_UN_registry, year_of_launch) %>% 
+        filter((country_of_UN_registry=="USA" | country_of_UN_registry=="China" |
+                        country_of_UN_registry=="France") & (year_of_launch < 2016 & year_of_launch > 1996)) %>%
+        summarise(sat_number_from_orig_country=n()) %>% 
+        arrange(desc(year_of_launch))
+
+# visualizing USA power compared to China and France on the past years 
+ggplot(US_vs_chine, aes(x=year_of_launch, y=sat_number_from_orig_country,
+                        group = country_of_UN_registry, colour = country_of_UN_registry)) +
+        geom_line() +
+        geom_point( size=4, shape=21, fill="white")
+
+# visualizing USA power compared to China and France on the past years  with bar plot
+ggplot(US_vs_chine, aes(x=year_of_launch, y=sat_number_from_orig_country,
+                        fill=factor(country_of_UN_registry))) +
+        geom_bar(stat = "identity", position="dodge")
+
+# The world distribution 
+# the world map
 names(origin_country)<- c("region", "sat_number_from_orig_country")
 
 all_states <- map_data("world")
@@ -152,60 +236,118 @@ world_base <- ggplot(data = all_states, mapping = aes(x = long, y = lat, group =
   coord_fixed(1.5) + 
   geom_polygon(color = "white", fill = "gray")
 
-world_base
+
 World_n_sat<-world_base +
         geom_polygon(data = world_sat, aes(fill = sat_number_from_orig_country), color = "white")+
         #scale_fill_continuous(name = "number satellite per Country")+ 
         scale_fill_gradientn(colours = rev(rainbow(7)),
                          breaks = c(10, 50, 100, 200, 300, 400),
                          trans = "log10")+
+        ggtitle( "Satellites distribution by county \b at golbal level")
         theme_bw()
        
 World_n_sat
 ```
 
+EXPLORING DATA SEGMENTATION 
+ - number of active satellites by launch site
+ 
+ Findings : 
+ - 38.4% of satellites are under the sole USA Flag
+ - Chine is in second position
+ - 7 countries have at least 40 actives satellites on orbit
+ - 23 satellites are at least under the flg of two countries
 
 
 ```{r}
 site_of_launch <-satellites %>% 
         group_by (launch_site) %>%
-        summarise(sat_number_by_site=n(), min_mass= min (launch_mass, na.rm=TRUE),
+        summarise(sat_number_by_site=n(), total_mass= sum(launch_mass, na.rm=TRUE),
+                  min_mass= min (launch_mass, na.rm=TRUE),
                   max_mass = max (launch_mass, na.rm=TRUE), mean_mass = mean(launch_mass, na.rm=TRUE),
                   sd_mass = sd(launch_mass, na.rm = TRUE))  %>%
         top_n(10, sat_number_by_site) %>% 
         arrange (desc (sat_number_by_site)) %>% 
         mutate(percentage = round(100*sat_number_by_site / sum(sat_number_by_site),1)) %>% 
         mutate(pos=cumsum(sat_number_by_site)-sat_number_by_site /2)
-        
-bp_site = ggplot(site_of_launch, aes(x= factor(1), y = sat_number_by_site, fill = factor(launch_site)))+
-        geom_bar(width=1, stat="identity") + 
-        ggtitle( "Where active satellites are launched") +
-        coord_polar("y") + 
-        geom_text(aes(y=pos, label=paste (percentage, "%", sep="")))
 
-
+# visualizing where satellites are launched by site        
+bp_site = ggplot(site_of_launch, aes(x= reorder(launch_site, -as.numeric(sat_number_by_site)),
+                                     y = sat_number_by_site, fill = factor(launch_site)))+
+        geom_bar(stat="identity") +  #??? aggregate data into accounts 
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5)) + # vertical label
+        geom_text(aes(label=sat_number_by_site), vjust=1.5, color="white", size=4) + 
+        ggtitle( "Where active satellites are launched") + 
+        scale_x_discrete(name ="Site") + 
+        scale_y_discrete(name ="Number of satellites") 
 bp_site
 
+bp_site_mass = ggplot(site_of_launch, aes(x= reorder(launch_site, as.numeric(total_mass)),
+                                     y = total_mass, fill = factor(launch_site)))+
+        geom_bar(stat="identity") + 
+        coord_flip() +
+        geom_text(aes(label=total_mass), vjust=-4.0, color="black", size=3) + 
+        ggtitle( "total mass in orbit by site ") + 
+        scale_x_discrete(name ="Site") + 
+        scale_y_discrete(name ="Mass total") 
+bp_site_mass
+
+veh_of_launch <-satellites %>% 
+        group_by (launch_site, launch_vehicule) %>% 
+        summarize (sat_by_veh= n()) %>% 
+        arrange (desc (sat_by_veh))
 ```
 
 - Exploring data 
  - display number of satellites given their expected life and highlight their distribution based on their users and class of orbit
  - This information can help in dealing with missing value
+ - 39 % of actives satellites : Commercials
+ - 20 % of actives satellites : governments
+ - 39 % of actives satellites : Military
+ - 49 % 
+Distribution by class 
+ - Since the 2000s, the number of Elliptical, MEO and GEO satellites launched haven't changed while the number of LEO have significantly increased from 35 in 2010 to 119 in 2015
+ 
 
 ```{r}
+
+# visualization of satellites expected liftime by sector
 ggplot(satellites, aes(x=expected_lifetime, fill=users)) +
-    geom_histogram(binwidth=1, alpha=.5, position="identity")
+        geom_histogram(binwidth=1, alpha=.5, position="identity")+
+        ggtitle( "distribution: Satellites expected lifetime by sector") + 
+        labs( x="expected lifetime", y="satellites number") +
+        theme1
 
-ggplot(satellites, aes(x=expected_lifetime, fill=class_of_orbit)) +
-    geom_histogram(binwidth=1, alpha=.5, position="identity")
+# visualization of satellites by class of orbit
+ggplot(satellites, aes(x=expected_lifetime, fill=class_of_orbit)) + 
+        geom_histogram(binwidth=1, alpha=.5, position="identity") +
+        ggtitle( "distribution : Satellites by class of orbit") + 
+        labs( x="expected lifetime", y="satellites number") +
+        theme1
 
+# distribution of satellites in orbit  by sector and purpose
 sat_users <- satellites %>% 
         group_by (users) %>%
         summarise (sat_number_by_users=n(), min_exepect_life = round(min (expected_lifetime, na.rm=TRUE),1),
                   max_expect_life = round(max (expected_lifetime, na.rm=TRUE),1),
                   mean_expect_life = round(mean(expected_lifetime, na.rm=TRUE),1),
                   sd_expect_life = round(sd(expected_lifetime, na.rm = TRUE),1))  %>%
+        mutate (percent=round(100*sat_number_by_users / sum (sat_number_by_users),0)) %>% 
         arrange (desc (sat_number_by_users))
+
+sat_purpose <- satellites %>% 
+        group_by (purpose) %>%
+        summarise (sat_number_by_purpose=n())  %>%
+        mutate (percent = round(100*sat_number_by_purpose / sum (sat_number_by_purpose),0)) %>% 
+        arrange (desc (sat_number_by_purpose))
+
+sat_users1 <- satellites %>% 
+        group_by (users, purpose) %>% 
+        summarise (sat_number_by_userp = n()) %>%
+        arrange (desc (sat_number_by_userp)) 
+        #mutate (percent = round(100*sat_number_by_userp / sum (sat_number_by_userp),0))
+
+        
 
 sat_class <- satellites %>% 
         group_by (class_of_orbit) %>%
@@ -213,16 +355,74 @@ sat_class <- satellites %>%
                   max_expect_life = round(max (expected_lifetime, na.rm=TRUE),1),
                   mean_expect_life = round(mean(expected_lifetime, na.rm=TRUE),1),
                   sd_expect_life = round(sd(expected_lifetime, na.rm = TRUE),1))  %>%
+        mutate (percent = round (100*number_by_class / sum (number_by_class) )) %>% 
         arrange (desc (number_by_class))
+
+# visualization of satellites by class of orbit
+ggplot(sat_class, aes(x=class_of_orbit, y=number_by_class, fill=factor(class_of_orbit))) + 
+        geom_bar(stat = "identity", position="dodge") + 
+        ggtitle( "Satellites number  by class of orbit") + 
+        labs( x="class of orbit", y="satellites number") +
+        theme1
+
+sat_class_ts <- satellites %>% 
+        group_by (class_of_orbit, year_of_launch) %>%
+        filter (!is.na(class_of_orbit) & year_of_launch < 2016 & year_of_launch > 1998) %>% 
+        summarise (number_by_class=n())  %>%
+        # mutate (percent = round (100*number_by_class / sum (number_by_class) )) %>% 
+        arrange (desc (year_of_launch))
+
+# visualization of satellites by class of orbit and year of launch
+ggplot(sat_class_ts, aes(x=year_of_launch, y=number_by_class, fill=factor(class_of_orbit))) + 
+        geom_bar(stat = "identity", position="dodge") + 
+        ggtitle( "Satellites number by launch year and class of orbit") + 
+        labs( x="launch year", y="sat number by class of orbit") +
+        theme1
+
+ggplot(sat_class_ts, aes(x=year_of_launch, y=number_by_class,
+                        group = class_of_orbit, colour = class_of_orbit)) + 
+        geom_line(size=1.5) + 
+        geom_point( size=4, shape=21, fill="white")+
+        ggtitle( "Satellites number by launch year and class of orbit") + 
+        labs( x="launch year", y="sat number by class of orbit") +
+        theme1
+
+```
+
+
+Owner and purpose
+
+```{r}
+sat_Owner<- satellites %>% 
+        group_by (owner, country_of_owner) %>% 
+        summarise (number_by_owner=n())  %>% 
+        arrange (desc (number_by_owner))
+
+sat_Owner_purpose <- satellites %>% 
+        group_by (owner,country_of_owner, users) %>% 
+        summarise (number_by_owner_purpose=n())  %>% 
+        arrange (desc (number_by_owner_purpose))
+
 
 ```
 
 
 
-
 ```{r}
+sat_mass<-satellites %>% 
+        select (launch_mass) %>% 
+        filter (!is.na(launch_mass))
+
+sat_mass_clust<- hclust (d = dist(sat_mass$launch_mass))
+plot (sat_mass_clust)
+
+##############################
 sat_expected_life <- satellites %>% 
         filter (!is.na(expected_lifetime))
+sat_exlife_clust<- hclust (d = dist(sat_expected_life$expected_lifetime))
+plot (sat_exlife_clust)
+
+
 hist(sat_expected_life$expected_lifetime)
 
 linreg_users=lm(expected_lifetime~users,data=sat_expected_life)
@@ -240,6 +440,13 @@ summary(linreg_class)
 
 ```
 
+```{r}
+# cov (sat_expected_life$expected_lifetime,sat_expected_life$users)
+
+```
+
+
+
 Time series
 - try to forecast number of satellites launched in 2016 given satellites (actives) in orbit launched in 11 previous years
 - 
@@ -249,7 +456,9 @@ Time series
 sat_by_year <- satellites %>% 
         group_by(year_of_launch) %>% 
         filter ( year_of_launch>=2005 & year_of_launch < 2016) %>% 
-        summarise (n_by_year=n())
+        summarise (n_by_month=n())
+
+
 
 timeseries_sat <- ts (sat_by_year[,2], start=2005, end=2015)
 ts.plot (timeseries_sat)
@@ -296,8 +505,15 @@ AIC(MA_sat_change) # 82.04
 
 BIC(AR_sat_change) # 82.89
 BIC(MA_sat_change) # 82.95
+##########################################################
+
+auto_a_sat <- auto.arima(timeseries_sat)
+auto_a_sat
 
 ```
+
+
+
 Time series
 - try to forecast number of satellites launched in 2016 given satellites (actives) in orbit launched in 5 previous years
 
@@ -309,7 +525,7 @@ sat_by_year <- satellites %>%
         summarise (n_by_year=n())
 
 timeseries_sat <- ts (sat_by_year[,2], start=2010, end=2015)
-ts.plot (timeseries_sat)
+plot(timeseries_sat)
 
 #autocolrrelation 
 acf(timeseries_sat, plot=FALSE) # acf [1]= 0.491 acf [2]= 0.055
@@ -353,4 +569,43 @@ AIC(MA_sat_change) # 44.55
 
 BIC(AR_sat_change) # 43.09
 BIC(MA_sat_change) # 82.38
+
+# using auto.arim model 
+
+```
+
+```{r}
+sat_by_month <- satellites %>% 
+        group_by(year_of_launch, month_of_launch) %>% 
+        filter ( year_of_launch>=2005 & year_of_launch < 2016) %>% 
+        summarise (n_by_month=n()) %>% 
+        arrange (year_of_launch)
+
+# Here we can realize that some months lacking , so to I complete the data.frame by adding those months with zero as value of number of sat
+# this help on computing time series anaysis 
+
+y<- c(2006, 2009)
+m <- c(1,3)
+v <- c(0,0)
+addrows<- data.table("year_of_launch"=y, "month_of_launch"=m,"n_by_month"=v)
+
+sat_by_month <- rbind(as.data.frame(sat_by_month), as.data.frame(addrows)) # why I had to coerce  sat_by_month and addrow<s              
+sat_by_month <-arrange (sat_by_month,year_of_launch, month_of_launch)
+
+ts_sat <- ts (sat_by_month[,3], start=c(2005, 1), end=2015, frequency = 12)
+ts_sat
+plot (ts_sat)
+
+auto_a_sat <- auto.arima(ts_sat)
+auto_a_sat
+
+theforecast <-forecast(object=auto_a_sat, h = 12)
+summary(theforecast)
+plot (theforecast) 
+
+## ══════════════
+## the resultf of the forecasting, how to intrepret them 
+## There is a simple way to plot the forecast graph with ggplot ?
+## ══════════════
+
 ```
