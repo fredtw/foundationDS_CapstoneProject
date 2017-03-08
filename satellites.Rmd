@@ -28,61 +28,21 @@ The data set required some transformations.
 - remove strings in numerical columns 
 - mutate news columns to keep informations removed in numerical culumns such as "end of life"" or "biginning of life""
 - NR country as country of UN registry is replaced by the country owner name
+- There are two data set sattellites and satdata will be loaded 
 
 
 ```{r}
-
-satellites<-fread(file='Database.csv', na.strings=c("", "NA"))
-
-#rename columns
-colnames(satellites)<-c("name_of_sat", "country_of_UN_registry", "owner", "country_of_owner", "users", "purpose",
-                        "setailed_of_purpose", "class_of_orbit", "type_of_orbit", "long_of_geo_orbit", "perigee", 
-                        "apogee", "eccentricity", "incrination", "period", "launch_mass", "dry_mass", "power",
-                        "date_of_launch", "expected_lifetime", "contractor", "country_of_contractor","launch_site",
-                        "launch_vehicule", "COSPAR_number", "NORAD_number")
-
-# get class of each column
-#lapply(satellites, class)
-
-satellites$launch_mass<- as.numeric(satellites$launch_mass)
-satellites$expected_lifetime<- as.numeric(satellites$expected_lifetime)
-# Add a column End of Life (EOL)
-satellites<- satellites %>% 
-        mutate (end_of_life= as.numeric( grepl(pattern=".*EOL.*", satellites$power)))
-satellites$end_of_life <- as.numeric(satellites$end_of_life | grepl(pattern=".*EOL.*", satellites$dry_mass))
-
-# Add a column biginning  of Life (BOL)
-satellites<- satellites %>% 
-        mutate (biginning_of_life= as.numeric( grepl(pattern=".*BOL.*", satellites$power)))
-satellites$biginning_of_life <- as.numeric(satellites$biginning_of_life | grepl(pattern=".*BOL.*", satellites$dry_mass))
-
-#grep only numeric numbers in columns : power, expected_life_time 
-satellites$power<-as.numeric(gsub("([0-9]+).*$", "\\1", satellites$power))
-#satellites$expected_lifetime<-as.numeric(gsub("[^\\d]+", "",satellites$expected_lifetime, perl=T ))
-satellites$dry_mass<-as.numeric(gsub("([0-9]+).*$", "\\1", satellites$dry_mass))
-
-
-#Interpret Date of Launch column as date and extract year of launch....
-satellites$date_of_launch <- as.Date(satellites$date_of_launch, "%m/%d/%Y")
-satellites$year_of_launch <- as.integer(format(satellites$date_of_launch, "%Y"))
-satellites$month_of_launch <- as.numeric(format(satellites$date_of_launch, "%m"))
-satellites$day_of_launch <- as.numeric(format(satellites$date_of_launch, "%d"))
-satellites$weekday_of_launch <- weekdays(satellites$date_of_launch)
-
-# the system (function weekday) return the days of the week in French , I convert them manally in English
-satellites$weekday_of_launch<-gsub("lundi","1_Monday", satellites$weekday_of_launch)
-satellites$weekday_of_launch<-gsub("mardi","2_Tuesday", satellites$weekday_of_launch)
-satellites$weekday_of_launch<-gsub("mercredi","3_Wednesday", satellites$weekday_of_launch)
-satellites$weekday_of_launch<-gsub("jeudi","4_Thursday", satellites$weekday_of_launch)
-satellites$weekday_of_launch<-gsub("vendredi","5_Friday", satellites$weekday_of_launch)
-satellites$weekday_of_launch<-gsub("samedi","6_Saturday", satellites$weekday_of_launch)
-satellites$weekday_of_launch<-gsub("dimanche","7_Sunday", satellites$weekday_of_launch)
+satellites<-fread(file='satellites.csv')
+satdata<-fread(file='satdata.csv')
+str (satellites)
+#geo <- geocode((satellites$country_of_UN_registry))
 
 ```
 
 Exploring data 
  - recency : based on the dataset 438 satellites exceed their expected life time
  - activitities by days and months :  the finding is that there are far few satellites launched in January while the peack of activity lies on Thusday  (by day) and in June (by month)
+ _ The major parrty of satellites are launched in  second half-year
 
 ```{r}
 
@@ -103,19 +63,27 @@ theme1 <- theme (plot.title = element_text(color="blue", size=14, hjust =0.5, fa
 ggplot(satellites, aes(weekday_of_launch, fill=factor(month_of_launch))) +
         geom_bar() + 
         ggtitle( "satellites launched by weekday and month") +
-        labs(x="The weekday of launch", y="Number of satellites") +  
+        labs(x="The weekday of launch", y="Number of satellites") + 
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5)) +
+        theme1
+
+ggplot(satellites, aes(x = factor(month_of_launch))) +
+        geom_bar(fill="skyblue") + 
+        ggtitle( "satellites launched by  month") +
+        labs(x="launch Month", y="Number of satellites") + 
         theme1
 
 ggplot(satellites, aes(weekday_of_launch, fill=factor(month_of_launch))) +
         geom_bar(position="dodge") +
         ggtitle( "satellites launched by weekday and month") +
         labs(x ="Country of UN registry",y ="Number of satellites") +
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5)) +
         theme1
 
-ggplot(satellites, aes(month_of_launch, fill=factor(weekday_of_launch))) + 
+ggplot(satellites, aes(x = factor(month_of_launch), fill=factor(weekday_of_launch))) + 
         geom_bar(position="dodge") + 
         ggtitle( "satellites launched by weekday") +
-        labs(x ="Country of UN registry", y ="Number of satellites") +
+        labs(x ="Launch Month", y ="Number of satellites") +
         theme1
 
 
@@ -143,7 +111,7 @@ ggplot(number_by_year_of_launch, aes(x=year_of_launch, y=number_by_year,
         theme1
         
 
-ggplot(satellites, aes(x=1, y=apogee, col=factor(class_of_orbit))) +
+ggplot(satellites, aes(x=1, y=perigee, col=factor(class_of_orbit))) +
         geom_point(alpha=.5, position=position_jitter(width=1)) 
 
 ```
@@ -152,7 +120,7 @@ EXPLORING DATA SEGMENTATION
  - number of active satellites by country
 
  
- Findings : 
+ Comments : 
  - 38.4% of satellites are under the sole USA Flag
  - Chine is in second position, and trying to catch up in the area of satellites in orbit
  - 7 countries have at least 40 actives satellites on orbit
@@ -197,13 +165,13 @@ share_sat_plot <- ggplot(country_high_power,
                          aes(x=reorder(country_of_UN_registry, -as.numeric(sat_number_from_orig_country)),
                                                  y = as.numeric(sat_number_from_orig_country))) +                          geom_bar(stat="identity", fill="steelblue") + 
         geom_text(aes(label=sat_number_from_orig_country), vjust=1.5, color="white", size=4) + 
-        ggtitle( "Satellites distribution by county") +
+        ggtitle( "Satellites distribution by county") + 
+        scale_fill_discrete(name="countries :")+
         scale_x_discrete(name ="Country of UN registry") +  # rename x axis
         scale_y_discrete(name ="Number of satellites") + # rename y axis
         theme_minimal() 
-       
-
 share_sat_plot
+
 
 US_vs_chine <- satellites %>% 
         group_by(country_of_UN_registry, year_of_launch) %>% 
@@ -215,18 +183,21 @@ US_vs_chine <- satellites %>%
 # visualizing USA power compared to China and France on the past years 
 ggplot(US_vs_chine, aes(x=year_of_launch, y=sat_number_from_orig_country,
                         group = country_of_UN_registry, colour = country_of_UN_registry)) +
+        
         geom_line() +
+        scale_fill_discrete(name="countries :")+
         geom_point( size=4, shape=21, fill="white")
 
 # visualizing USA power compared to China and France on the past years  with bar plot
 ggplot(US_vs_chine, aes(x=year_of_launch, y=sat_number_from_orig_country,
                         fill=factor(country_of_UN_registry))) +
+        scale_fill_discrete(name="countries :")+
         geom_bar(stat = "identity", position="dodge")
+
 
 # The world distribution 
 # the world map
 names(origin_country)<- c("region", "sat_number_from_orig_country")
-
 all_states <- map_data("world")
 world_sat <-inner_join(all_states, origin_country, by="region")
 
@@ -243,7 +214,7 @@ World_n_sat<-world_base +
         scale_fill_gradientn(colours = rev(rainbow(7)),
                          breaks = c(10, 50, 100, 200, 300, 400),
                          trans = "log10")+
-        ggtitle( "Satellites distribution by county \b at golbal level")
+        ggtitle( "Satellites distribution by county at golbal level")
         theme_bw()
        
 World_n_sat
@@ -251,6 +222,7 @@ World_n_sat
 
 EXPLORING DATA SEGMENTATION 
  - number of active satellites by launch site
+ - more satellites were launched from "Baikonur Cosmodrome"
  
  Findings : 
  - 38.4% of satellites are under the sole USA Flag
@@ -288,6 +260,7 @@ bp_site_mass = ggplot(site_of_launch, aes(x= reorder(launch_site, as.numeric(tot
         coord_flip() +
         geom_text(aes(label=total_mass), vjust=-4.0, color="black", size=3) + 
         ggtitle( "total mass in orbit by site ") + 
+        scale_fill_discrete(name="Launch site")+
         scale_x_discrete(name ="Site") + 
         scale_y_discrete(name ="Mass total") 
 bp_site_mass
@@ -369,7 +342,7 @@ sat_class_ts <- satellites %>%
         group_by (class_of_orbit, year_of_launch) %>%
         filter (!is.na(class_of_orbit) & year_of_launch < 2016 & year_of_launch > 1998) %>% 
         summarise (number_by_class=n())  %>%
-        # mutate (percent = round (100*number_by_class / sum (number_by_class) )) %>% 
+        mutate (percent = round (100*number_by_class / sum (number_by_class) )) %>% 
         arrange (desc (year_of_launch))
 
 # visualization of satellites by class of orbit and year of launch
@@ -409,34 +382,15 @@ sat_Owner_purpose <- satellites %>%
 
 
 ```{r}
-sat_mass<-satellites %>% 
-        select (launch_mass) %>% 
-        filter (!is.na(launch_mass))
-
-sat_mass_clust<- hclust (d = dist(sat_mass$launch_mass))
-plot (sat_mass_clust)
-
-##############################
-sat_expected_life <- satellites %>% 
-        filter (!is.na(expected_lifetime))
-sat_exlife_clust<- hclust (d = dist(sat_expected_life$expected_lifetime))
-plot (sat_exlife_clust)
 
 
-hist(sat_expected_life$expected_lifetime)
+linreg_ls <- lm (launch_site ~ purpose + class_of_orbit, data = satellites)
+summary(linreg_ls)
 
-linreg_users=lm(expected_lifetime~users,data=sat_expected_life)
-cor(linreg_users$fitted.values,sat_expected_life$expected_lifetime)
-plot(sat_expected_life$expected_lifetime,linreg_users$fitted.values)
-hist(linreg_users$fitted.values)
+pred1 <- predict(linreg_ls, type="response")
+pred1
+table (satellites$launch_site, pred1 >= 0.5)
 
-linreg_class=lm(expected_lifetime~class_of_orbit,data=sat_expected_life)
-cor(linreg_class$fitted.values,sat_expected_life$expected_lifetime)
-plot(sat_expected_life$expected_lifetime,linreg_class$fitted.values)
-hist(linreg_class$fitted.values)
-
-summary(linreg_users)
-summary(linreg_class)
 
 ```
 
@@ -589,10 +543,14 @@ m <- c(1,3)
 v <- c(0,0)
 addrows<- data.table("year_of_launch"=y, "month_of_launch"=m,"n_by_month"=v)
 
-sat_by_month <- rbind(as.data.frame(sat_by_month), as.data.frame(addrows)) # why I had to coerce  sat_by_month and addrow<s              
+sat_by_month <- rbind(as.data.frame(sat_by_month), as.data.frame(addrows))
 sat_by_month <-arrange (sat_by_month,year_of_launch, month_of_launch)
 
-ts_sat <- ts (sat_by_month[,3], start=c(2005, 1), end=2015, frequency = 12)
+#ts_sat <- ts (sat_by_month[,3], start=c(2005, 1), end=2015, frequency = 12)
+ts_sat <- ts (sat_by_month[,3] + c(1:nrow(sat_by_month) %% 12 == 5) * 10, 
+              start=c(2005, 1), end=2015, frequency = 12)
+
+
 ts_sat
 plot (ts_sat)
 
@@ -607,5 +565,145 @@ plot (theforecast)
 ## the resultf of the forecasting, how to intrepret them 
 ## There is a simple way to plot the forecast graph with ggplot ?
 ## ══════════════
+
+```
+ 
+ 
+ - No Russian satellite have ever been launched from: Cape Canaveral, Vandenberg AFB, Guiana Space Center or Xichang Satellite Launch Center
+ - At Cape Canaveral and Vandenberg AFB:  almost exlusivily USA satellites 
+ 
+ 
+```{r}
+satp <- satdata %>% 
+        group_by(purpose, users) %>% 
+        summarise(number = n()) %>% 
+        arrange(-number)
+
+ggplot(satp, aes(x=users,y=purpose,size=number)) +
+        geom_point() +
+        theme(axis.text.x = element_text(angle=90,hjust=1),
+              axis.text=element_text(size=6),
+              axis.title.y=element_blank(),axis.title.x=element_blank())
+
+ggplot(satdata, aes(x=class_of_orbit, y=Guiana, col=factor(class_of_orbit))) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+ggplot(satdata, aes(x=class_of_orbit, y=Baikonur, col=factor(class_of_orbit))) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+ggplot(satdata, aes(x=class_of_orbit, y=Cape, col=factor(class_of_orbit))) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+ggplot(satdata, aes(x=class_of_orbit, y=Vandenberg, col=factor(class_of_orbit))) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+ggplot(satdata, aes(x=class_of_orbit, y=Xichang, col=factor(class_of_orbit))) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+######################################################
+ggplot(satdata, aes(x=country_of_contractor, y=Guiana)) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+ggplot(satdata, aes(x=country_of_contractor, y=Baikonur)) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+ggplot(satdata, aes(x=country_of_contractor, y=Cape)) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+
+ggplot(satdata, aes(x=country_of_contractor, y=Vandenberg)) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+ggplot(satdata, aes(x=country_of_contractor, y=Xichang)) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+
+###################################################################
+
+ggplot(satdata, aes(x=country_of_contractor, y= Cape)) +
+        geom_point(alpha=.5, position=position_jitter(width=0.2))+
+        theme(axis.text.x=element_text(angle=90,hjust=0.5,vjust=0.5))
+```
+
+Predctive analysis 
+ - The expected life time of a satellite is highly related ( 69 percent ) to its purpose and class of orbit
+ - The choice of the launch site is linked to the country of the contractor
+    
+
+```{r}
+sat_expected_life <- satellites %>% 
+        filter (!is.na(expected_lifetime))
+
+ggplot(sat_expected_life, aes(x=expected_lifetime)) + 
+        geom_histogram(aes(y=..density..),  color="black", fill="white")+ 
+        geom_density(alpha=.2, fill="#FF6666") 
+
+linreg_users=lm(expected_lifetime ~ purpose + class_of_orbit ,
+                data=sat_expected_life)
+par (mflow = c(2, 2))
+plot(linreg_users)
+summary(linreg_users)
+
+# observations 462, 568, 882 appear to ber influential, then dropping those observations 
+#... a better model fit
+
+linregEL=lm(expected_lifetime ~ purpose + class_of_orbit ,
+                data=sat_expected_life[-c(462, 568, 882),])
+par (mflow = c(2, 2))
+plot(linreg_users1)
+summary(linregEL)
+
+
+########### Guiana Space Center ########################################
+
+logG1 <- glm (Guiana ~ GEO + LEO + MEO + Commercial + Military + Civil + Communication +
+                     EObs + TechDev + GPS + SpScience + TechDemo + Martime
+             , data= satdata, family= binomial(logit))
+
+summary(logG1)
+
+linregG <- lm (Guiana ~ GEO + LEO + MEO + Commercial + Military + Civil + Communication +
+                     EObs + TechDev + GPS + SpScience + TechDemo + Martime, data= satdata)
+summary(linregG)
+
+logG <- glm (Guiana ~ users + country_of_contractor, data= satdata, family= binomial())
+summary(logG)
+
+linregG1 <- lm (Guiana ~ GEO + MEO + Commercial + Military + GPS + country_of_contractor, data= satdata)
+summary(linregG1)
+
+#############################################################################
+############################## Baikonur #####################################
+
+linregB<- lm (Baikonur ~ GEO + LEO + MEO + Commercial + Military + Civil + Communication +
+                     EObs + TechDev + GPS + SpScience + TechDemo + Martime, data= satdata)
+summary(linregB)
+
+linregB1 <- lm (Baikonur ~ Commercial + Military + country_of_contractor, data= satdata)
+summary(linregB1)
+
+#############################################################################
+
+############################################################################
+############################## Cape ########################################
+
+linregC<- lm (Baikonur ~ GEO + LEO + MEO + Commercial + Military + Civil + Communication +
+                     EObs + TechDev + GPS + SpScience + TechDemo + Martime, data= satdata)
+summary(linregC)
+
+linregC1 <- lm (Baikonur ~ Commercial + Military + country_of_contractor, data= satdata)
+summary(linregC1)
+
+###############################################################################
+
 
 ```
