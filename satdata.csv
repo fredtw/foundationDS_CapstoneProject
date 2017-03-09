@@ -1,0 +1,1263 @@
+"","name_of_sat","country_of_contractor","users","purpose","class_of_orbit","launch_site","GEO","LEO","MEO","Guiana","Baikonur","Cape","Vandenberg","Xichang","Commercial","Government","Military","Civil","Communication","EObs","TechDev","GPS","SpScience","TechDemo","Martime"
+"1","AAUSat-4","Denmark","Civil","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"2","ABS-2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"3","ABS-2A","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"4","ABS-3","USA","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"5","ABS-3A","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"6","ABS-4","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"7","ABS-6","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"8","ABS-7","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"9","USA 139","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"10","USA 171","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"11","USA 202","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"12","USA 223","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"13","USA 237","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"14","USA 268","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"15","USA 235","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"16","USA 246","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"17","Aeneas","USA","Government","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0
+"18","Aerocube 4.5A","USA","Commercial","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+"19","Aerocube 4.5B","USA","Commercial","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+"20","Aerocube 5A","USA","Commercial","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+"21","Aerocube 5B","USA","Commercial","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+"22","Aerocube 5C","USA","Commercial","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+"23","Aerocube 6A","USA","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"24","Aerocube 6B","USA","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"25","Aerocube 7A","USA","Commercial","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+"26","Aerocube 8A","USA","Commercial","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+"27","Aerocube 8B","USA","Commercial","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+"28","Eutelsat 28B","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"29","Afristar","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"30","AIM","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"31","AISat-1","Germany","Government","Communications","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"32","AISSat-1","Canada","Government","Communications","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"33","AISSat-2","Norway/Canada","Government","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"34","AIST-1","Russia","Civil","Technology Development","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"35","AIST-2","Russia","Civil","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"36","ALiCE","USA","Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+"37","Alphasat I-XL","France/UK/Germany/Spain","Commercial/Government","Communications/Technology Development","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0
+"38","Alsat-2A","France/UK/Germany/Spain","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"39","Amazonas-1","France/UK/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"40","Amazonas-2","France/UK/Germany/Spain","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"41","Amazonas-3","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"42","Amazonas-4A","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"43","AMC-1","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"44","AMC-10","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"45","AMC-11","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"46","AMC-15","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"47","AMC-16","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"48","AMC-18","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"49","AMC-2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"50","AMC-21","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"51","AMC-3","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"52","AMC-4","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"53","AMC-6","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"54","AMC-7","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"55","AMC-8","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"56","AMC-9","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"57","Amos 2","Israel","Military/Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+"58","Amos 3","Israel","Military/Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+"59","Amos 4","Israel","Military/Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+"60","Amos 5","Russia","Military/Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+"61","Amsat-Oscar 7","USA","Civil","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0
+"62","Anik F1","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"63","Anik F1R","France/UK/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"64","Anik F2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"65","Anik F3","France/UK/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"66","Anik G1","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"67","AntelSat","Uruguay","Civil","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"68","AprizeSat 1","Argentina","Commercial","Communications/Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0
+"69","AprizeSat 10","USA","Commercial","Communications/Maritime Tracking","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"70","AprizeSat 2","Argentina","Commercial","Communications/Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0
+"71","AprizeSat 3","USA","Commercial","Communications/Maritime Tracking","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"72","AprizeSat 4","USA","Commercial","Communications/Maritime Tracking","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"73","AprizeSat 5","USA","Commercial","Communications","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"74","AprizeSat 7","USA","Commercial","Communications","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"75","AprizeSat 8","USA","Commercial","Communications/Maritime Tracking","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"76","AprizeSat 9","USA","Commercial","Communications/Maritime Tracking","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"77","Apstar 1A","USA","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"78","Apstar 6","France","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"79","Apstar 7","France/Italy","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"80","Apstar 9","China","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"81","Apstar 9A","USA","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"82","Arabsat 5C","France","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"83","Arabsat 7F","USA/Canada","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"84","ARC-1","USA","Civil","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0
+"85","ArSat 1","Argentina","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"86","ArSat 2","Argentina","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"87","Advanced Data Relay and Technology Mission Satellite (Artemis)","Italy","Commercial/Government","Communications/Technology Development","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0
+"88","AsiaSat-3S","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"89","AsiaSat-4","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"90","AsiaSat-5","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"91","AsiaSat-6","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"92","AsiaSat-7","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"93","AsiaSat-8","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"94","AsiaStar","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"95","ASNARO-1","Japan","Government","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"96","Astra 1D","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"97","Astra 1F","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"98","Astra 1G","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"99","Astra 1H","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"100","Astra 1KR","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"101","Astra 1L","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"102","Astra 1M","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"103","Astra 1N","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"104","Astra 2A","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"105","Astra 2B","France/UK/Germany","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"106","Astra 2C","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"107","Astra 2D","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"108","Astra 2E","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"109","Astra 2F","France/UK/Germany","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"110","Astra 2G","Germany/France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"111","Astra 3A","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"112","Astra 3B","France/UK/Germany/Spain","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"113","Astra 5B","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"114","Athena-Fidus","France","Government/Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+"115","Athenoxat-1","Singapore","Commercial","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"116","Aurora","Russia","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"117","Azerspace/Africasat-1a","USA","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"118","Badr 4","France/UK/Germany/Spain","Government","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"119","Badr 5","France/UK/Germany/Spain","Government","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"120","Badr 5A","France/UK/Germany/Spain","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"121","Badr 6","France/UK/Germany/Spain","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"122","Badr 7","France/UK/Germany/Spain","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"123","Cosmos 2503","Russia","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"124","Cosmos 2515","Russia","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"125","BeeSat-1","Germany","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"126","BeeSat-2","Germany","Civil","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"127","BeeSat-3","Germany","Civil","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"128","Beidou 2-12","China","Military/Government","Navigation/Global Positioning","MEO","Xichang Satellite Launch Center",0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"129","Beidou 2-13","China","Military/Government","Navigation/Global Positioning","MEO","Xichang Satellite Launch Center",0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"130","Beidou 2-14","China","Military/Government","Navigation/Global Positioning","MEO","Xichang Satellite Launch Center",0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"131","Beidou 2-15","China","Military/Government","Navigation/Global Positioning","MEO","Xichang Satellite Launch Center",0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"132","Beidou 2-16","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"133","Beidou 2-23","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"134","Beidou 3I-1S","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"135","Beidou 3I-2S","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"136","Beidou 3M-1S","China","Military/Government","Navigation/Global Positioning","MEO","Xichang Satellite Launch Center",0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"137","Beidou 3M-2S","China","Military/Government","Navigation/Global Positioning","MEO","Xichang Satellite Launch Center",0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"138","Beidou 3M-3S","China","Military/Government","Navigation/Global Positioning","MEO","Xichang Satellite Launch Center",0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"139","Beidou G-1","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"140","Beidou G3","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"141","Beidou G4","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"142","Beidou G5","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"143","Beidou IGSO-1","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"144","Beidou IGSO-2","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"145","Beidou IGSO-3","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"146","Beidou IGSO-4","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"147","Beidou IGSO-5","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"148","Beidou IGSO-6","China","Military/Government","Navigation/Global Positioning","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"149","Beidou M1","China","Military/Government","Navigation/Global Positioning","MEO","Xichang Satellite Launch Center",0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0
+"150","BeijinGalaxy-1","China/United Kingdom","Civil","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"151","Belintersat-1","China/France","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"152","BermudaSat-1","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"153","BisonSat","USA","Civil","Earth Observation/Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0
+"154","BKA 2","Russia","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"155","Brazilsat B-2","USA","Military/Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+"156","Brazilsat B-3","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"157","Brazilsat B-4","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"158","BRISat","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"159","BRITE-CA-1","Canada","Civil","Space Science","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+"160","BRITE-PL-1","Poland","Government","Space Science","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"161","BRITE-PL-2","Poland","Government","Space Science","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"162","BSAT-3A","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"163","BSAT-3B","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"164","BSAT-3C/JCSat 110-R","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"165","Bugsat-1","Argentina","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"166","Calipso","France","Government","Earth Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"167","Canopus-B","Russia","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"168","CartoSat 2A","India","Military","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"169","CartoSat 2B","India","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"170","CartoSat 2C","India","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"171","Cassiope","Canada","Government","Earth Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"172","CBERS 4","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"173","CFESat","United Kingdom","Government","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0
+"174","Chandra X-Ray Observatory (CXO)","USA","Government","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"175","ChinaSat 11","China","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"176","ChinaSat 1C","China","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"177","ChinaSat 2C","China","Commercial/Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+"178","ChinaSat 6B","France/Italy","Commercial/Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+"179","Chuangxin 1-1","China","Government","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"180","Chuangxin 1-2","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"181","Chuangxin 1-3","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"182","Chuangxin 1-4","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"183","Chuangzin-3","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"184","ChubuSat 1","Japan","Civil","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"185","Ciel-2","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"186","CINEMA-1","USA","Civil","Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0
+"187","USA 257","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"188","Cloudsat","USA","Government/Civil","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+"189","COMS-1","South Korea","Government","Earth Observation/Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"190","COMSATBw-1","France/Italy","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"191","COMSATBw-2","France/Italy","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"192","Condor E2","Russia","Military","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"193","Coriolis","USA","Military","Earth/Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0
+"194","COSMIC-A","USA","Government/Civil","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+"195","COSMIC-B","USA","Government/Civil","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+"196","COSMIC-D","USA","Government/Civil","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+"197","COSMIC-E","USA","Government/Civil","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+"198","COSMIC-F","USA","Government/Civil","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+"199","Cosmos 2504","Russia","Military","Technology Development","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+"200","COSMO-Skymed 1","France/Italy","Military/Civil","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+"201","COSMO-Skymed 2","Italy","Military/Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+"202","COSMO-Skymed 3","Italy","Military/Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+"203","COSMO-Skymed 4","Italy","Military/Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+"204","CP-10","USA","Civil","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+"205","Cryosat-2","France/UK/Germany/Spain","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"206","CSSWE","USA","Civil","Earth Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+"207","Cubebug 1","Argentina","Civil","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"208","Cubebug 2","Argentina","Civil","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"209","Cubesat XI-IV","Japan","Civil","Technology Development","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"210","CUSat-1","USA","Civil","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+"211","DAMPE","China","Government","Space Science","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"212","DCBB","China","Civil","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"213","Deimos 1","United Kingdom","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"214","Deimos 2","South Korea","Government","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"215","Delfi-C3","Netherlands","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"216","DirecTV-10","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"217","DirecTV-12","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"218","DirecTV-14","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"219","DirecTV-15","Germany/France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"220","DirecTV-4S","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"221","DirecTV-5","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"222","DirecTV-8","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"223","DirecTV-9S","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"224","USA 131","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"225","USA 147","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"226","USA 172","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"227","USA 173","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"228","USA 210","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"229","Dove 1c-1","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"230","Dove 1c-10","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"231","Dove 1c-11","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"232","Dove 1c-2","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"233","Dove 1c-3","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"234","Dove 1c-4","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"235","Dove 1c-5","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"236","Dove 1c-6","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"237","Dove 1c-7","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"238","Dove 1c-8","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"239","Dove 1c-9","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"240","Dove 2p-1","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"241","Dove 2p-2","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"242","Dove 2p-3","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"243","Dove 2p-4","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"244","Dove 2p-5","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"245","Dove 2p-6","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"246","Dove 2p-7","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"247","Dove 2p-8","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"248","Dove 2p-9","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"249","Dove 2p-10","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"250","Dove 2p-11","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"251","Dove 2p-12","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"252","Dove-3","USA","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"253","USA 167","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"254","USA 170","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"255","USA 135","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"256","USA 148","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"257","USA 153","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"258","USA 113","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"259","USA 130","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"260","USA 149","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"261","USA 159","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"262","USA 176","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"263","DubaiSat-1","South Korea","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"264","DubaiSat-2","South Korea","Government","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"265","Duchifat-1","Israel","Civil","Communications","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"266","DX-1","Russia","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"267","Echostar 1","USA","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"268","Echostar 12","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"269","Echostar 14","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"270","Echostar 15","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"271","Echostar 16","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"272","Echostar 17","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"273","Echostar 18","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"274","Echostar 3","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"275","Echostar 7","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"276","Echostar 8","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"277","Echostar G1","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"278","Cosmos 2510","Russia","Military","Earth Observation","Elliptical","Plesetsk Cosmodrome",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"279","Electro-L1","Russia","Government","Earth Observation","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"280","Electro-L2","Russia","Government","Earth Observation","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"281","ELISA-E12","France","Military","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"282","ELISA-E24","France","Military","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"283","ELISA-W11","France","Military","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"284","ELISA-W23","France","Military","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"285","EO-1","USA","Government","Earth Observation/Research","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"286","Terra","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"287","Aura","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"288","Aqua","USA/Japan/Brazil","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"289","e-st@r-2","Italy","Civil","Technology Development","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"290","Eurasiasat 1","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"291","Eutelsat 10A","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"292","Eutelsat 113 West-A","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"293","Eutensat 115 West-B","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"294","Eutelsat 117 West A","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"295","Eutelsat 117 West B","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"296","Eutelsat 12 West A","Italy","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"297","Eutelsat 16A","France","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"298","Eutelsat 16C","France/Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"299","Eutelsat 172A","France/Italy","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"300","Eutelsat 25B","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"301","Eutelsat 33A","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"302","Eutelsat 33B","France","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"303","Eutelsat 33C","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"304","Eutelsat 36A","France","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"305","Eutelsat 36B","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"306","Eutelsat 48A","France/UK/Germany","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"307","Eutelsat 48B","Italy","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"308","Eutelsat 5 West A","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"309","Eutelsat 65 West-A","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"310","Eutelsat 7A","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"311","Eutelsat 7B","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"312","Eutelsat 8 West A","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"313","Eutelsat 8 West B","France/Italy","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"314","Eutelsat Hot Bird 13A","France","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"315","Eutelsat 9A","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"316","Eutelsat Hot Bird 13E","France/UK/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"317","Eutelsat Hot Bird 13D","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"318","Eutelsat Hot Bird 13B","France/UK/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"319","Eutelsat Hot Bird 13C","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"320","Eutelsat KA-SAT 9A","France/UK/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"321","exactView 1","United Kingdom","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"322","exactView 6","USA","Commercial","Communications","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"323","Express AM-22","Russia/France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"324","Express AMU1","France/UK/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"325","Express-A1R","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"326","Express-AM2","Russia/France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"327","Express-AM3","Russia/France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"328","Express-AM33","Russia/France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"329","Express-AM44","Russia/France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"330","Express-AM5","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"331","Express-AM6","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"332","Express-AM7","France/UK/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"333","Express-AM8","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"334","Express-AT1","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"335","Express-AT2","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"336","Falconsat-3","USA","Military/Civil","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0
+"337","Fengniao 1A","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"338","Fengyun 2D","China","Government","Earth Observation","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"339","Fengyun 2E","China","Government","Earth Observation","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"340","Fengyun 2F","China","Government","Earth Observation","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"341","Fengyun 2G","China","Government","Earth Observation","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"342","Fengyun 3A","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"343","Fengyun 3B","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"344","Fengyun 3C","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"345","Fermi Gamma-Ray Space Telescope","USA","Government","Space Science","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"346","USA 215","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"347","USA 234","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"348","USA 247","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"349","USA 267","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"350","Firebird-A","USA","Government/Civil","Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0
+"351","Firebird-B","USA","Government/Civil","Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0
+"352","Firebird-C","USA","Government/Civil","Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0
+"353","Firebird-D","USA","Government/Civil","Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0
+"354","USA 46","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"355","Formosat-2","France/UK/Germany/Taiwan","Government/Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+"356","Fast On-orbit Recording of Transient Events) FORTÉ","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"357","Fox-1A","USA","Civil","Communications/Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0
+"358","FUNCube-1 (AO-73)","UK/Netherlands","Civil","Communications","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"359","Galaxy-11","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"360","Galaxy-12","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"361","Galaxy-14","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"362","Galaxy-15","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"363","Galaxy-17","France/Italy","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"364","Galaxy-25","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"365","Galileo FOC FM1","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"366","Galileo FOC FM10","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"367","Galileo FOC FM11","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"368","Galileo FOC FM2","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"369","Galileo FOC FM3","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"370","Galileo FOC FM4","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"371","Galileo FOC FM5","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"372","Galileo FOC FM6","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"373","Galileo FOC FM8","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"374","Galileo FOC FM9","Germany/UK","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"375","Galileo IOV-1 FM2","Germany/UK/Italy","Commerical","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"376","Galileo IOV-1 PFM","Germany/UK/Italy","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"377","Galileo IOV-2 FM3","Germany/UK/Italy","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"378","Galileo IOV-2 FM4","Germany/UK/Italy","Commercial","Navigation/Global Positioning","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"379","Gaofen 1","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"380","Gaofen 2","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"381","Gaofen 4","China","Government","Earth Observation","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"382","Gaofen 8","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"383","Gaofen 9","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"384","Cosmos 2473","Russia","Military","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"385","Cosmos 2513","Russia","Military","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"386","Garuda-1","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"387","GATOSS","Denmark","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"388","GEARRSAT-2","USA","Government","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0
+"389","Genesis-1","USA","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"390","Genesis-2","USA","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"391","Cosmos 2517","Russia","Military","Earth Science","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"392","GeoEye-1","USA","Commercial/Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0
+"393","Geomagnetic Tail Laboratory (Geotail)","USA","Government","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"394","Globalstar FM4","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"395","Globalstar FM8","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"396","Globalstar M023","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"397","Globalstar M026","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"398","Globalstar M027","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"399","Globalstar M028","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"400","Globalstar M029","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"401","Globalstar M031","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"402","Globalstar FM37","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"403","Globalstar M039","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"404","Globalstar M040","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"405","Globalstar M056","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"406","Globalstar M059","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"407","Globalstar M063","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"408","Globalstar M065","USA/Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"409","Globalstar M066","USA/Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"410","Globalstar M067","USA/Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"411","Globalstar M068","USA/Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"412","Globalstar M069","USA/Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"413","Globalstar M070","USA/Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"414","Globalstar M071","USA/Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"415","Globalstar M072","USA/Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"416","Globalstar M073","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"417","Globalstar M074","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"418","Globalstar M075","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"419","Globalstar M076","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"420","Globalstar M077","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"421","Globalstar M078","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"422","Globalstar M079","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"423","Globalstar M080","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"424","Globalstar M081","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"425","Globalstar M082","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"426","Globalstar M083","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"427","Globalstar M084","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"428","Globalstar M085","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"429","Globalstar M086","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"430","Globalstar M088","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"431","Globalstar M089","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"432","Globalstar M090","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"433","Globalstar M091","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"434","Globalstar M092","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"435","Globalstar M093","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"436","Globalstar M094","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"437","Globalstar M095","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"438","Globalstar M096","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"439","Globalstar M097","Italy","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"440","Cosmos 2471","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"441","Cosmos 2501","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"442","Cosmos 2419","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"443","Cosmos 2424","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"444","Cosmos 2425","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"445","Cosmos 2426","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"446","Cosmos 2432","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"447","Cosmos 2433","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"448","Cosmos 2434","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"449","Cosmos 2436","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"450","Cosmos 2443","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"451","Cosmos 2456","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"452","Cosmos 2459","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"453","Cosmos 2460","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"454","Cosmos 2457","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"455","Cosmos 2458","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"456","Cosmos 2461","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"457","Cosmos 2464","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"458","Cosmos 2465","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"459","Cosmos 2466","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"460","Cosmos 2474","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"461","Cosmos 2476","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"462","Cosmos 2477","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"463","Cosmos 2475","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"464","Cosmos 2478","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"465","Cosmos 2485","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"466","Cosmos 2514","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"467","Cosmos 2516","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"468","Cosmos 2491","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"469","Cosmos 2500","Russia","Military/Commercial","Navigation/Global Positioning","MEO","Plesetsk Cosmodrome",0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+"470","GOES-13","USA","Government","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"471","GOES-14","USA","Government","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"472","GOES-15","USA","Government","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"473","GOES-3","USA","Civil","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+"474","Göktürk 2","Turkey","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"475","Gonets D1-14","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"476","Gonets M-03","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"477","Gonets M-04","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"478","Gonets M-05","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"479","Gonets M-11","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"480","Gonets M-12","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"481","Gonets M-13","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"482","Gonets M-14","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"483","Gonets M-16","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"484","Gonets M-17","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"485","Gonets M-18","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"486","Gonets M-19","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"487","Gonets M-20","Russia","Commercial/Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"488","Gravity Recovery and Climate Experiment (Grace 1, """"""""Tom and Jerry"""""""")","Germany/USA","Civil","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"489","Gravity Recovery and Climate Experiment (Grace 2, """"""""Tom and Jerry"""""""")","Germany/USA","Civil","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"490","GRIFEX","USA","Government/Civil","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0
+"491","GSAT-10","India","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"492","GSAT-12","India","Government","Communications","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"493","GSAT-14","India","Government","Communications","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"494","GSAT-15","India","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"495","GSAT-16","India","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"496","GSAT-2","India","Government","Communications/Technology Development","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0
+"497","GSAT-6","India","Government/Commercial","Communications","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"498","GSAT-7","India","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"499","GSAT-8","India","Government","Communications/Navigation","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0
+"500","USA 253","USA","Military","Space Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+"501","USA 254","USA","Military","Space Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+"502","Haiyang 2A","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"503","Helios 2A","France/UK/Germany/Spain","Military","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"504","Helios 2B","France/UK/Germany/Spain","Military","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"505","HellasSat 2","France, UK, Germany","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"506","RHESSI (Reuven Ramaty High Energy Solar Spectroscopic Imager)","USA","Government/Civil","Space Science","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0
+"507","Hispasat 1C","France","Commercial/Gov/Mil","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,1,1,0,1,0,0,0,0,0,0
+"508","Hispasat 1D","France","Commercial/Gov/Mil","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,1,1,0,1,0,0,0,0,0,0
+"509","Hispasat 1E","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"510","HJ-1A","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"511","HJ-1B","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"512","HJ-1C","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"513","Hodoyoshi-1","Japan","Government","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"514","Hodoyoshi-3","Japan","Government","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"515","Hodoyoshi-4","Japan","Government","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"516","Horizons 2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"517","Hubble Space Telescope","International","Government","Space Science","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"518","HumSat-D","Spain","Civil","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"519","HYLAS 1","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"520","HYLAS 2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"521","USA 184","USA","Military","Earth Observation","Elliptical","Vandenberg AFB",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"522","USA 200","USA","Military","Earth Observation","Elliptical","Vandenberg AFB",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"523","USA 259","USA","Military","Earth Observation","Elliptical","Vandenberg AFB",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"524","INMARSAT 3 F1","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"525","INMARSAT 3 F2","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"526","INMARSAT 3 F3","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"527","INMARSAT 3 F4","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"528","INMARSAT 3 F5","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"529","INMARSAT 4 F1","France/UK/Germany","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"530","INMARSAT 4 F3","France/UK/Germany","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"531","INMARSAT 5 F1","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"532","INMARSAT 5 F2","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"533","INMARSAT 5 F3","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"534","INSAT 3A","India","Government","Earth Observation","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"535","INSAT 3C","India","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"536","INSAT 3D","India","Government","Earth Observation","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"537","INSAT 4A","India","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"538","INSAT 4B","India","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"539","INSAT 4CR","India","Government","Communications","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"540","INTErnational Gamma-Ray Astrophysics Laboratory (INTEGRAL)","Italy/International","Government","Space Science","Elliptical","Baikonur Cosmodrome",0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"541","Intelsat 10","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"542","Intelsat 10-02","UK/France/Germany/Spain","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"543","Intelsat 11","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"544","Intelsat 12","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"545","Intelsat 14","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"546","Intelsat 15","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"547","Intelsat 16","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"548","Intelsat 17","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"549","Intelsat 18","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"550","Intelsat 1R","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"551","Intelsat 20","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"552","Intelsat 22","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"553","Intelsat 23","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"554","Intelsat 25","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"555","JCSat R","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"556","Intelsat 29E","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"557","Intelsat 30/DLA 1","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"558","Intelsat 31/DLA 2","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"559","Intelsat 34","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"560","Intelsat 5","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"561","Intelsat 701","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"562","Intelsat 702","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"563","Intelsat 8","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"564","Intelsat 805","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"565","Intelsat 901","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"566","Intelsat 902","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"567","Intelsat 903","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"568","Intelsat 904","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"569","Intelsat 905","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"570","Intelsat 906","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"571","Intelsat 907","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"572","Intelsat APR-2","France","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"573","Intelsat New Dawn","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"574","International Space Station","Multinational","Government","Space Science","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"575","Iridium 10","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"576","Iridium 11A","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"577","Iridium 12","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"578","Iridium 13","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"579","Iridium 14A","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"580","Iridium 15","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"581","Iridium 18","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"582","Iridium 19","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"583","Iridium 20A","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"584","Iridium 21A","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"585","Iridium 22","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"586","Iridium 23","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"587","Iridium 25","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"588","Iridium 3","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"589","Iridium 30","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"590","Iridium 31","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"591","Iridium 32","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"592","Iridium 34","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"593","Iridium 35","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"594","Iridium 37","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"595","Iridium 39","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"596","Iridium 40","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"597","Iridium 41","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"598","Iridium 42","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"599","Iridium 43","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"600","Iridium 45","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"601","Iridium 46","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"602","Iridium 47","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"603","Iridium 49","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"604","Iridium 5","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"605","Iridium 50","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"606","Iridium 51","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"607","Iridium 52","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"608","Iridium 53","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"609","Iridium 54","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"610","Iridium 55","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"611","Iridium 56","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"612","Iridium 57","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"613","Iridium 58","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"614","Iridium 59","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"615","Iridium 6","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"616","Iridium 60","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"617","Iridium 61","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"618","Iridium 62","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"619","Iridium 64","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"620","Iridium 65","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"621","Iridium 66","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"622","Iridium 67","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"623","Iridium 68","USA","Government/Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"624","Iridium 7","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"625","Iridium 70","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"626","Iridium 72","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"627","Iridium 74","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"628","Iridium 75","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"629","Iridium 76","USA","Government/Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"630","Iridium 77","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"631","Iridium 8","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"632","Iridium 80","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"633","Iridium 81","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"634","Iridium 82","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"635","Iridium 83","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"636","Iridium 84","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"637","Iridium 86","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"638","Iridium 90","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"639","Iridium 91","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"640","Iridium 94","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"641","Iridium 95","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"642","Iridium 96","USA","Government/Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0
+"643","Iridium 97","USA","Government/Commercial","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"644","Iridium 98","USA","Government/Commercial","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"645","IRIS","USA","Government","Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0
+"646","IRNSS-1A","India","Government","Navigation/Regional Positioning","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"647","IRNSS-1B","India","Government","Navigation/Regional Positioning","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"648","IRNSS-1C","India","Government","Navigation/Regional Positioning","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"649","IRNSS-1D","India","Government","Navigation/Regional Positioning","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"650","IRNSS-1E","India","Government","Navigation/Regional Positioning","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"651","IRNSS-1F","India","Government","Navigation/Regional Positioning","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"652","IRNSS-1G","India","Government","Navigation/Regional Positioning","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"653","IRS-P6","India","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"654","ITU-pSAT1","Turkey","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"655","Jason 2","France","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"656","Jason 3","France","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"657","JCSat 10","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"658","JCSat 110","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"659","JCSat 13","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"660","JCSat 14","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"661","JCSat 1B","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"662","JCSat 2A","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"663","JCSat 4A","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"664","JCSat RA","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"665","Jilin-1","China","Commercial","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"666","Jugnu","India","Civil","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"667","Kaituo-1A","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"668","Kalpana-1","India","Government","Earth Observation","GEO","Satish Dhawan Space Center",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"669","KazEOSat-1","France","Government","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"670","KazEOSat-2","UK","Government","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"671","KazSat-2","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"672","KazSat-3","Italy","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"673","Kent Ridge 1","Singapore","Civil","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"674","USA 186","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"675","USA 224","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"676","USA 245","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"677","KJSY-1","China","Civil","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"678","Kompsat-2","South Korea/France/UK/Germany","Government/Commercial","Earth Observation/Technology Development","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0
+"679","Kompsat-3A","South Korea","Government/Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"680","Kompsat-5","South Korea","Government/Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"681","Cosmos 2487","Russia","Military","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"682","Koreasat 6","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"683","Kuaizhou-2","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"684","USA 133","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"685","USA 152","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"686","USA 182","USA","Military","Earth Observation","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"687","Landsat 7","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"688","Landsat 8","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"689","LaoSat-1","China","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"690","LAPAN A2","Indonesia","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"691","LAPAN A3","Indonesia","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"692","LAPAN-Tubsat","Germany","Government","Earth Observation/Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"693","LatinSat A","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"694","LatinSat B","USA","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"695","Lemur-1","USA","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"696","Lemur-2 Chris","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"697","Lemur-2Jeroen","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"698","Lemur-2 Joel","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"699","Lemur-2 Peter","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"700","LilacSat-2","China","Civil","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"701","Ling Qiao","China","Commercial","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"702","Lingqiao-A","China","Commercial","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"703","Lingqiao-B","China","Commercial","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"704","LMRSTSat","USA","Government","Technology Demonstration","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0
+"705","Cosmos 2455","Russia","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"706","Cosmos 2502","Russia","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"707","LQSat","China","Commercial","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"708","Luch 5A","Russia/France","Government","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"709","Luch 5B","Russia","Government","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"710","Luch 5V","Russia","Government","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"711","Luch/Olympus","Russia","Military","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"712","M3MSat","Canada","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"713","Maroc Tubsat","Morocco/Germany","Government","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"714","M-Cubed/E1P-U2","USA","Civil","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+"715","Measat 2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"716","Measat 3","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"717","Measat 3A","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"718","Measat 3B","Germany/France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"719","Megha-Tropiques","India","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"720","USA 105","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"721","USA 118","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"722","USA 250","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"723","Meridian-3","Russia","Military","Communications","Elliptical","Plesetsk Cosmodrome",0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"724","Meridian-4","Russia","Military","Communications","Elliptical","Plesetsk Cosmodrome",0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"725","Meridian-6","Russia","Military","Communications","Elliptical","Plesetsk Cosmodrome",0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"726","Meridian-7","Russia","Military","Communications","Elliptical","Plesetsk Cosmodrome",0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"727","Meteor-M N-2","Russia","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"728","Meteosat 10","France","Government/Civil","Earth Observation","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+"729","Meteosat 11","France/Italy","Government/Civil","Earth Observation","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+"730","Meteosat 7","France","Government/Civil","Earth Observation","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+"731","Meteosat 8","France","Government/Civil","Earth Observation","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+"732","Meteosat 9","France/Italy","Government/Civil","Earth Observation","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+"733","MetOp-A","France/UK/Germany/Spain","Government/Civil","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+"734","MetOp-B","France/UK/Germany/Spain","Government/Civil","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+"735","Mexsat-3","USA","Government/Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+"736","Mexsat-2","USA","Government","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+"737","MICROSCOPE","France","Government","Space Science","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"738","USA 99","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"739","USA 115","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"740","USA 157","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"741","USA 164","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"742","USA 169","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"743","MKA-FKI-1","Russia","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"744","MMS-1","USA","Government","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"745","MMS-2","USA","Government","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"746","MMS-3","USA","Government","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"747","MMS-4","USA","Government","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"748","Microvariability & Oscillations of Stars (MOST)","Canada","Government","Space Science","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"749","Mozhayets 4","Russia","Civil","Technology Development","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"750","MSAT 1","Canada","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"751","MSAT 2","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"752","Multispectral Thermal Imager (MTI)","USA","Government/Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,1,0,0,0,1,0,0,0,0
+"753","MUOS-1","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"754","MUOS-2","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"755","MUOS-3","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"756","MUOS-4","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"757","MUOS-5","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"758","Nanosat-1","Spain","Government","Communications","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"759","Nanosat-1B","Spain","Government","Communications/Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0
+"760","NATO-4B","France","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"761","USA 213","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"762","USA 262","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"763","USA 265","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"764","USA 266","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"765","USA 232","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"766","USA 239","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"767","USA 242","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"768","USA 248","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"769","USA 251","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"770","USA 256","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"771","USA 258","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"772","USA 260","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"773","USA 175","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"774","USA 177","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"775","USA 178","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"776","USA 180","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"777","USA 132","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"778","USA 145","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"779","USA 150","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"780","USA 151","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"781","USA 154","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"782","USA 156","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"783","USA 166","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"784","USA 168","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"785","USA 183","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"786","USA 190","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"787","USA 192","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"788","USA 196","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"789","USA 199","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"790","USA 201","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"791","USA 206","USA","Military/Commercial","Navigation/Global Positioning","MEO","Cape Canaveral",0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0
+"792","Naxing 2","China","Civil","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"793","NBN-1A","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"794","NEOSSat","Canada","Government","Space Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"795","NigComSat-1R","China","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"796","NigeriaSat-2","United Kingdom","Government","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"797","Nigeriasat-X","United Kingdom","Government","Earth Observation/Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"798","Nilesat 102","France","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"799","Nilesat 201","France","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"800","Nimiq 2","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"801","Nimiq 4","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"802","Nimiq 5","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"803","Nimiq 6","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"804","NOAA-15","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"805","NOAA-18","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"806","NOAA-19","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"807","NPP","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"808","NSS-10","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"809","NSS-11","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"810","NSS-12","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"811","NSS-5","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"812","NSS-6","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"813","NSS-7","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"814","NSS-806","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"815","NSS-9","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"816","N-Star C","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"817","NUDT Phonesat","China","Military","Technology Demonstration","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+"818","ÑuSat-1","Uruguay","Commercial","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"819","ÑuSat-2","Uruguay","Commercial","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"820","O3b FM02","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"821","O3b FM03","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"822","O3b FM04","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"823","O3b FM05","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"824","O3b FM06","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"825","O3b FM07","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"826","O3b FM08","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"827","O3B FM09","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"828","O3B FM10","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"829","O3B FM11","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"830","O3B FM12","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"831","O3b PFM","France","Commercial","Communications","MEO","Guiana Space Center",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"832","Oceansat-2","India","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"833","OCO 2","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"834","OPTOS","Spain","Government","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"835","Optus 10","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"836","Optus and Defence C1","USA","Military/Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+"837","Optus B3","USA","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"838","Optus D1","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"839","Optus D2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"840","Optus D3","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"841","ORBCOMM FM-4","USA","Commercial","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0
+"842","ORBCOMM FM-103","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"843","ORBCOMM FM-104","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"844","ORBCOMM FM-105","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"845","ORBCOMM FM-106","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"846","ORBCOMM FM-107","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"847","ORBCOMM FM-108","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"848","ORBCOMM FM-109","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"849","ORBCOMM FM-110","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"850","ORBCOMM FM-111","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"851","ORBCOMM FM-112","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"852","ORBCOMM FM-113","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"853","ORBCOMM FM-114","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"854","ORBCOMM FM-115","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"855","ORBCOMM FM-116","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"856","ORBCOMM FM-117","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"857","ORBCOMM FM-118","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"858","ORBCOMM FM-119","USA","Commercial","Communications","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"859","OUFTI-1","Belgium","Civil","Technology Development","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"860","Paksat-1R","China","Government/Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0
+"861","Palapa C2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"862","Palapa D1","France","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"863","USA 207","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"864","ParkinsonSat-1","USA","Civil","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0
+"865","Cosmos 2407","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"866","Cosmos 2414","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"867","Cosmos 2463","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"868","Perseus M1","Russia/USA","Commercial","Communications","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"869","Perseus M2","Russia/USA","Commerical","Communications","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"870","Cosmos 2486","Russia","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"871","Cosmos 2506","Russia","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"872","Pléiades HR1A","France","Government","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"873","Pléiades HR1B","France","Government","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"874","PolyITAN-1","Ukraine","Civil","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"875","Popsat-HIP","Singapore","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"876","Project for On-Board Autonomy (Proba 1)","Belgium","Government","Technology Demonstration","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"877","Project for On-Board Autonomy (Proba 2)","Belgium","Government","Technology Demonstration","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"878","Proba V","Belgium","Government","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"879","PropCube-1","USA","Military","Space Science","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+"880","PropCube-3","USA","Military","Space Science","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+"881","PUCPSat-1","Peru","Civil","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"882","Pujiang-1","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"883","QB50Pl","Netherlands","Civil","Space Science","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+"884","QB50P2","Netherlands","Civil","Space Science","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+"885","Qsat-EOS","Japan","Civil","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"886","QueztSat-1","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"887","Radarsat-2","Canada/Italy","Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"888","Radio-ROSTO","Russia","Civil","Communications","MEO","Baikonur Cosmodrome",0,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"889","Cosmos 2450","Russia","Military","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"890","Raduga 1-M2","Russia","Military","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"891","Raduga 1-M3","Russia","Military","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"892","USA 225","USA","Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+"893","RapidEye-1","United Kingdom","Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"894","RapidEye-2","United Kingdom","Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"895","RapidEye-3","United Kingdom","Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"896","RapidEye-4","United Kingdom","Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"897","RapidEye-5","United Kingdom","Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"898","RASAT","Turkey","Government","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"899","Rascom-QAF 1R","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"900","INnovative technology Demonstration EXperiment satellite (INDEX)","Japan","Government","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"901","Relek","Russia","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"902","Resourcesat 2","India","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"903","Resurs-DK1","Russia","Government/Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"904","Resurs-P1","Russia","Government/Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"905","Resurs-P2","Russia","Government/Commercial","Earth Observation/Communications/Space Science","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,1,0,0
+"906","Resurs-P3","Russia","Government/Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"907","RISat-1","India","Military","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"908","RISat-2","Israel","Military","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"909","Cosmos 2416","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"910","Cosmos 2437","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"911","Cosmos 2438","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"912","Cosmos 2439","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"913","Cosmos 2451","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"914","Cosmos 2453","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"915","Cosmos 2467","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"916","Cosmos 2468","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"917","Cosmos 2481","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"918","Cosmos 2482","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"919","Cosmos 2483","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"920","Cosmos 2484","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"921","Cosmos 2488","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"922","Cosmos 2489","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"923","Cosmos 2490","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"924","Cosmos 2496","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"925","Cosmos 2497","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"926","Cosmos 2498","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"927","Cosmos 2507","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"928","Cosmos 2508","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"929","Cosmos 2509","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"930","Cosmos 2499","Russia","Military","Technology Development","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+"931","Rumba","International","Government","Space Science","Elliptical","Baikonur Cosmodrome",0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"932","Salsa","International","Government","Space Science","Elliptical","Baikonur Cosmodrome",0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"933","Samba","International","Government","Space Science","Elliptical","Baikonur Cosmodrome",0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"934","Sapphire","UK/Canada","Military","Space Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+"935","SARAL","India","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"936","SAR-Lupe 1","Germany","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"937","SAR-Lupe 2","Germany","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"938","SAR-Lupe 3","Germany","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"939","SAR-Lupe 4","Germany","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"940","SAR-Lupe 5","Germany","Military","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"941","Sathyabamasat","India","Civil","Earth Science","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"942","Saudicomsat-1","Saudi Arabia","Commercial","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"943","Saudicomsat-2","Saudi Arabia","Commercial","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"944","Saudicomsat-3","Saudi Arabia","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"945","Saudicomsat-4","Saudi Arabia","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"946","Saudicomsat-5","Saudi Arabia","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"947","Saudicomsat-6","Saudi Arabia","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"948","Saudicomsat-7","Saudi Arabia","Commercial","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"949","Saudisat 1C","Saudi Arabia","Government","Communications","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"950","Saudisat-2","Saudi Arabia","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"951","Saudisat-3","Saudi Arabia","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"952","Saudisat-4","Saudi Arabia","Government","Space Science","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"953","USA 230","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"954","USA 241","USA","Military","Earth Observation","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"955","USA 216","USA","Military","Space Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0
+"956","USA 181","USA","Military","Earth Observation","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"957","USA 181","USA","Military","Earth Observation","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"958","USA 194","USA","Military","Earth Observation","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"959","USA 194","USA","Military","Earth Observation","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"960","USA 229","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"961","USA 229","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"962","USA 238","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"963","USA 238","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"964","USA 264","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"965","USA 264","USA","Military","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+"966","SCD-1","Brazil","Government","Earth Observation","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"967","SCD-2","Brazil","Government","Earth Observation","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"968","Scisat-1","Canada","Government","Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0
+"969","SDO","USA","Government","Space Science","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+"970","USA 179","USA","Military","Communications","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"971","USA 198","USA","Military","Communications","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"972","USA 227","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"973","USA 236","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"974","USA 252","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"975","SEEDS 2","Japan","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"976","Sentinel 1A","Italy","Government","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"977","Sentinel 1B","France","Government","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"978","Sentinel 2A","France/UK/Germany","Government","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"979","Sentinel 3A","France","Government","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"980","SES-1","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"981","SES-2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"982","SES-3","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"983","SES-4","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"984","SES-5","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"985","SES-6","France/UK/Germany","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"986","SES-7","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"987","SES-8","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"988","SES-9","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"989","Shijian 11 01","China","Government","Space Science","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"990","Shijian 11 02","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"991","Shijian 11 03","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"992","Shijian 11 05","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"993","Shijian 11 06","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"994","Shijian 11 07","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"995","Shijian 11 08","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"996","Shijian 12","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"997","Shijian 15","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"998","Shijian 16 01","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"999","Shijian 16 02","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1000","Shijian 6A","China","Government","Space Science","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1001","Shijian 6B","China","Government","Space Science","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1002","Shijian 6C","China","Government","Space Science","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1003","Shijian 6D","China","Government","Space Science","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1004","Shijian 6E","China","Government","Space Science","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1005","Shijian 6F","China","Government","Space Science","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1006","Shijian 6G","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1007","Shijian 6H","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1008","Shijian 7","China","Government","Space Science","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1009","Shijian 9A","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1010","Shijian 9B","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1011","Shiyan 1","China","Government","Earth Observation","LEO","Xichang Satellite Launch Center",0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"1012","Shiyan 3","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1013","Shiyan 4","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1014","Shiyan 5","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1015","Shiyan 7","China","Military","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1016","Sicral 1A","Italy","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1017","Sicral 2/Syracuse 3C","France/Italy","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1018","Sinah-1","Russia","Government","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1019","SINOD D-1","USA","Commercial","Technology Demonstration","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+"1020","SINOD D-3","USA","Commercial","Technology Demonstration","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+"1021","Sinosat-6","China","Commercial","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+"1022","Sirius-1 (SD Radio 1)","USA","Commercial","Communications","Elliptical","Baikonur Cosmodrome",0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1023","Sirius 2 (SD Radio 2)","USA","Commercial","Communications","Elliptical","Baikonur Cosmodrome",0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1024","Sirius 3 (SD Radio 3)","USA","Commercial","Communications","Elliptical","Baikonur Cosmodrome",0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1025","Sirius 4","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1026","Sirius FM-5","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1027","Sirius FM-6","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1028","Sirius XM-5","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1029","Sky Mexico-1","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1030","Skynet 4C","France/UK/Germany","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1031","Skynet 4E","France/UK/Germany","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1032","Skynet 4F","France/UK/Germany","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1033","Skynet 5A","France/UK/Germany","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1034","Skynet 5B","France/UK/Germany","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1035","Skynet 5C","United Kingdom","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1036","Skynet 5D","United Kingdom","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1037","SkySat-1","USA","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"1038","SkySat-2","USA","Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"1039","SkySat-3","USA","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"1040","SkyTerra 1","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1041","USA 119","USA","Military","Communications","Elliptical","Vandenberg AFB",0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0
+"1042","SMAP","USA","Government","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+"1043","SMDC-ONE 1.1","USA","Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+"1044","SMDC-ONE 1.2","USA","Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+"1045","SMDC-ONE 2.3","USA","Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+"1046","SMDC-ONE 2.4","USA","Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+"1047","SMOS","France","Government","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1048","SNaP-3 Alice","USA","Military","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1049","SNaP-3 Eddie","USA","Military","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1050","SNaP-3 Jimi","USA","Military","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1051","SNaP-3-1","USA","Military","Communications","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0
+"1052","SOlar Radiation and Climate Experiment (SORCE)","USA","Government/Civil","Space Science","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0
+"1053","Spaceway 3","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1054","Spaceway F2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1055","Spainsat","USA","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1056","Spektr-R/RadioAstron","Russia","Government","Space Science","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1057","SPIRALE-A","France","Military","Technology Development","Elliptical","Guiana Space Center",0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1058","SPIRALE-B","France","Military","Technology Development","Elliptical","Guiana Space Center",0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1059","Spot 6","France/UK/Germany","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"1060","Spot 7","France/UK/Germany","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"1061","SRMSat","India","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1062","SSOT","France","Government/Military","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+"1063","ST-2","Japan","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1064","Star 1 C1","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1065","Star 1 C2","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1066","Star 1 C3","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1067","Star 1 C4","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1068","STRaND-1","UK","Commercial","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"1069","Cosmos 2385","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1070","Cosmos 2386","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1071","Cosmos 2390","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1072","Cosmos 2391","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1073","Cosmos 2400","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1074","Cosmos 2401","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1075","Cosmos 2408","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1076","Cosmos 2409","Russia","Military","Communications","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1077","STSat-3","South Korea","Government","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1078","USA 205","USA","Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+"1079","USA 208","USA","Military","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1080","USA 209","USA","Military","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1081","Superbird 7","Japan","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1082","Superbird-B2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1083","Swayam","India","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1084","SWARM-A","France","Government","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1085","SWARM-B","France","Government","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1086","SWARM-C","France","Government","Earth Observation","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1087","Swift","USA","Government/Civil","Space Science","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0
+"1088","SwissCube","Switzerland","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1089","Syracuse 3A","France/Italy","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1090","Syracuse 3B","France/Italy","Military","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1091","TacSat 6","USA","Military","Technology Development","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+"1092","TanDEM-X","France/UK/Germany/Spain","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1093","Tango","International","Government","Space Science","Elliptical","Baikonur Cosmodrome",0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1094","TDRS-10","USA","Government","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1095","TDRS-11","USA","Government","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1096","TDRS-12","USA","Government","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1097","TDRS-3","USA","Government","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1098","TDRS-5","USA","Government/Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0
+"1099","TDRS-6","USA","Government/Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0
+"1100","TDRS-7","USA","Government","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1101","TDRS-8","USA","Government","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1102","TDRS-9","USA","Government","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1103","TechDemoSat-1","United Kingdom","Government","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1104","TecSAR","Israel","Military","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1105","TeLEOS 1","Singapore","Commercial","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"1106","Telkom 1","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1107","Telkom 2","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1108","Telstar 12","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1109","Telstar 14R","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1110","TerraSAR X 1","France/UK/Germany/Spain","Government/Commercial","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"1111","TerraStar 1","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1112","TET-1","Germany","Commercial","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"1113","Thaicom-4","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1114","Thaicom-5","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1115","Thaicom-6","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1116","Thaicom-8","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1117","THEMIS A","USA","Government/Civil","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0
+"1118","THEMIS D","USA","Government/Civil","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0
+"1119","THEMIS E","USA","Government/Civil","Space Science","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0
+"1120","Theos","France","Government","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1121","Thor-3","USA","Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1122","Thor-5","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1123","Thor-6","France/Italy","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1124","Thor-7","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1125","Tiangong-1","China","Government","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1126","Tianhui 1-01","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1127","Tianhui 1-02","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1128","Tianhui 1-03","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1129","TianLian 1","China","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"1130","TianLian 2","China","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"1131","TianLian 3","China","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"1132","Tiantuo-2","China","Government","Earth Observation/Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1133","Tiantuo-3","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1134","TW-1A","China","Civil","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1135","TW-1B","China","Civil","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1136","TW-1C","China","Civil","Technology Development","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1137","TIGRISat","Italy","Civil","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"1138","TIMED","USA","Government/Civil","Space Science","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0
+"1139","TISat-1","Switzerland","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1140","TJS-1","China","Government","Technology Development","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0
+"1141","TKSat-1","China","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"1142","USA 136","USA","Military","Earth Observation","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1143","Cosmos 2428","Ukraine","Military","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1144","TSUBAME","Japan","Civil","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"1145","TUGSat-1","Canada","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1146","Turkmen Alem 52E/MonacoSAT","France/Italy","Government/Commercial","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0
+"1147","Turksat 3A","France","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1148","Turksat 4A","Japan","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1149","Turksat 4B","Japan","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1150","USA 146","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1151","USA 174","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1152","USA 95","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1153","USA 108","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1154","USA 114","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1155","USA 127","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1156","USA 138","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1157","UK-DMC-2","United Kingdom","Government","Earth Observation","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1158","Ukube-1","United Kingdom","Government","Technology Development","LEO","Baikonur Cosmodrome",0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1159","UWE-3","Germany","Civil","Communications","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"1160","RBSP-A","USA","Government","Earth Observation","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1161","RBSP-B","USA","Government","Earth Observation","Elliptical","Cape Canaveral",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1162","Velox 1","Singapore","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1163","Velox 2","Singapore","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1164","Velox C1","Singapore","Civil","Technology Development","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1165","VeneSat 1","China","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"1166","Vesselsat-1","Luxembourg","Commercial","Communications","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1167","Vesselsat-2","Luxembourg","Commercial","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1168","ViaSat-1","USA","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1169","Vinasat 1","USA","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1170","Vinasat 2","USA","Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+"1171","VNREDSat 1A","France","Government","Earth Observation","LEO","Guiana Space Center",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1172","VRSS-1","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1173","USA 195","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1174","USA 204","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1175","USA 211","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1176","USA 233","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1177","USA 243","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1178","USA 244","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1179","USA 263","USA","Military","Communications","GEO","Cape Canaveral",1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+"1180","WildBlue 1","USA","Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1181","WNISat-1","Japan","Commercial","Earth Observation","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"1182","Worldview 1","USA","Commercial","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"1183","Worldview 2","USA","Commercial","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"1184","Worldview 3","USA","Commercial","Earth Observation","LEO","Vandenberg AFB",0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+"1185","Wren","Germany","Commercial","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+"1186","USA 261","USA","Military","Technology Development","LEO","Cape Canaveral",0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+"1187","XC-1","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1188","XC-2","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1189","XC-3","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1190","XC-4","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1191","Xinyan 1","China","Government","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+"1192","XMM Newton","International","Government","Space Science","Elliptical","Guiana Space Center",0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1193","X-Sat","Singapore","Government","Earth Observation","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1194","XTAR-EUR","USA","Military/Government","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+"1195","XW-1","China","Civil","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"1196","XW-2A","China","Civil","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"1197","XW-2B","China","Civil","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"1198","XW-2C","China","Civil","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"1199","XW-2D","China","Civil","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"1200","XW-2E","China","Civil","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"1201","XW-2F","China","Civil","Communications","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"1202","Yahsat-1A","France","Military/Commercial","Communications","GEO","Guiana Space Center",1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+"1203","Yahsat-1B","France","Military/Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+"1204","Yamal-202","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1205","Yamal-300K","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1206","Yamal-401","Russia","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1207","Yamal-402","France","Commercial","Communications","GEO","Baikonur Cosmodrome",1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"1208","Yaogan 10","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1209","Yaogan 11","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1210","Yaogan 12","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1211","Yaogan 13","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1212","Yaogan 14","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1213","Yaogan 15","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1214","Yaogan 16A","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1215","Yaogan 16B","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1216","Yaogan 16C","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1217","Yaogan 17A","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1218","Yaogan 17B","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1219","Yaogan 17C","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1220","Yaogan 18","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1221","Yaogan 19","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1222","Yaogan 20A","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1223","Yaogan 20B","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1224","Yaogan 20C","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1225","Yaogan 21","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1226","Yaogan 22","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1227","Yaogan 23","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1228","Yaogan 24","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1229","Yaogan 25A","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1230","Yaogan 25B","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1231","Yaogan 25C","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1232","Yaogan 26","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1233","Yaogan 27","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1234","Yaogan 28","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1235","Yaogan 29","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1236","Yaogan 30","China","Military","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1237","Yaogan 4","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1238","Yaogan 6","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1239","Yaogan 7","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1240","Yaogan 8","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1241","Yaogan 9A","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1242","Yaogan 9B","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1243","Yaogan 9C","China","Government","Earth Observation","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1244","Youthsat","India","Government","Space Science","LEO","Satish Dhawan Space Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+"1245","Yubileiny","Russia","Civil","Technology Development","LEO","Plesetsk Cosmodrome",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1246","ZACube-1","South Africa","Civil","Technology Development","LEO","Dombarovsky Air Base",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1247","Ziyuan 2C","China","Military","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"1248","ZP-1B","China","Civil","Space Science","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+"1249","ZP-1C","China","Civil","Space Science","LEO","Jiuquan Satellite Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+"1250","ZP-2A","China","Civil","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1251","ZP-2B","China","Civil","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1252","Zhongxing 10","China","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"1253","Zhongxing 12","France","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"1254","Zhongxing 1A","China","Military","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0
+"1255","Zhongxing 20A","China","Military","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0
+"1256","Zhongxing 22A","China","Military","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0
+"1257","Zhongxing 2A","China","Military/Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0
+"1258","Zhongxing 9","France","Government","Communications","GEO","Xichang Satellite Launch Center",1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0
+"1259","Zijing 1","China","Civil","Technology Development","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"1260","Ziyuan 1-02C","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1261","Ziyuan 3","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"1262","Ziyan 3-2","China","Government","Earth Observation","LEO","Taiyuan Launch Center",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
