@@ -37,6 +37,13 @@ satdata<-fread(file='satdata.csv')
 str (satellites)
 #geo <- geocode((satellites$country_of_UN_registry))
 
+satContryOwner <- satellites %>% 
+        group_by(country_of_owner) %>% 
+        summarise (number = n())
+
+# usa -> "USA"
+# eu > "Belgium" , " Denmark"
+
 ```
 
 Exploring data 
@@ -164,6 +171,7 @@ country_high_power <- satellites %>%
 share_sat_plot <- ggplot(country_high_power,
                          aes(x=reorder(country_of_UN_registry, -as.numeric(sat_number_from_orig_country)),
                                                  y = as.numeric(sat_number_from_orig_country))) +                          geom_bar(stat="identity", fill="steelblue") + 
+      
         geom_text(aes(label=sat_number_from_orig_country), vjust=1.5, color="white", size=4) + 
         ggtitle( "Satellites distribution by county") + 
         scale_fill_discrete(name="countries :")+
@@ -184,9 +192,11 @@ US_vs_chine <- satellites %>%
 ggplot(US_vs_chine, aes(x=year_of_launch, y=sat_number_from_orig_country,
                         group = country_of_UN_registry, colour = country_of_UN_registry)) +
         
+        
         geom_line() +
         scale_fill_discrete(name="countries :")+
         geom_point( size=4, shape=21, fill="white")
+      
 
 # visualizing USA power compared to China and France on the past years  with bar plot
 ggplot(US_vs_chine, aes(x=year_of_launch, y=sat_number_from_orig_country,
@@ -635,7 +645,7 @@ ggplot(satdata, aes(x=country_of_contractor, y= Cape)) +
 ```
 
 Predctive analysis 
- - The expected life time of a satellite is highly related ( 69 percent ) to its purpose and class of orbit
+ - The expected life time of a satellite is highly related ( 90.5 percent ) to its purpose , class of orbit, power and the launch vehicle
  - The choice of the launch site is linked to the country of the contractor
     
 
@@ -656,54 +666,167 @@ summary(linreg_users)
 # observations 462, 568, 882 appear to ber influential, then dropping those observations 
 #... a better model fit
 
-linregEL=lm(expected_lifetime ~ purpose + class_of_orbit ,
+linregEL=lm(expected_lifetime ~ purpose + class_of_orbit + launch_mass + power+ launch_vehicule ,
                 data=sat_expected_life[-c(462, 568, 882),])
-par (mflow = c(2, 2))
-plot(linreg_users1)
 summary(linregEL)
 
+anova(linregEL)
 
-########### Guiana Space Center ########################################
+# with this model LinregEL the fit has improved at 90.5% , then we can reject the null hypothesis, in addition 
+# the p value of the F test is very small (< 2.2e-16).
+# the anova () function - analysis of variance indicates that all variables (purpose, class_of_orbit,launch_mass, power, launch_vehicule) contribute to the reduction of the fitting error of the model
 
-logG1 <- glm (Guiana ~ GEO + LEO + MEO + Commercial + Military + Civil + Communication +
-                     EObs + TechDev + GPS + SpScience + TechDemo + Martime
-             , data= satdata, family= binomial(logit))
+############################################################################???
+############## Visual Diagnostics ###########################
 
-summary(logG1)
+fortdata <- fortify(linregEL)
 
-linregG <- lm (Guiana ~ GEO + LEO + MEO + Commercial + Military + Civil + Communication +
-                     EObs + TechDev + GPS + SpScience + TechDemo + Martime, data= satdata)
-summary(linregG)
+## Homoscedacity assumption 
 
-logG <- glm (Guiana ~ users + country_of_contractor, data= satdata, family= binomial())
-summary(logG)
+ggplot(data = fortdata, aes(x = .fitted, y = .resid)) + 
+        geom_hline(yintercept = 0, colour = "firebrick3") +
+        geom_point()+
+        ggtitle( "Residual vs Fitted")
 
-linregG1 <- lm (Guiana ~ GEO + MEO + Commercial + Military + GPS + country_of_contractor, data= satdata)
-summary(linregG1)
+## Linearity assumption 
 
-#############################################################################
-############################## Baikonur #####################################
+ggplot(data = fortdata, aes(x = .fitted, y = .resid)) + 
+        geom_hline(yintercept = 0, colour = "firebrick3") + 
+        geom_point() +
+        geom_smooth(se = T) +
+        ggtitle( " Linearity")
 
-linregB<- lm (Baikonur ~ GEO + LEO + MEO + Commercial + Military + Civil + Communication +
-                     EObs + TechDev + GPS + SpScience + TechDemo + Martime, data= satdata)
-summary(linregB)
+## Normality assumption 
 
-linregB1 <- lm (Baikonur ~ Commercial + Military + country_of_contractor, data= satdata)
-summary(linregB1)
+ggplot(data = fortdata, aes(sample = .stdresid)) + 
+        stat_qq() + 
+        geom_abline(colour = "firebrick3")+
+        ggtitle( "Normal Q-Q")
 
-#############################################################################
+## Standardized residuals vs fitted values
 
-############################################################################
-############################## Cape ########################################
+ggplot(data = fortdata, aes(x = .fitted, y = .stdresid)) + 
+        geom_hline(yintercept = 0, colour = "firebrick3") + 
+        geom_point() + 
+        ggtitle( "Scale-location")
 
-linregC<- lm (Baikonur ~ GEO + LEO + MEO + Commercial + Military + Civil + Communication +
-                     EObs + TechDev + GPS + SpScience + TechDemo + Martime, data= satdata)
-summary(linregC)
 
-linregC1 <- lm (Baikonur ~ Commercial + Military + country_of_contractor, data= satdata)
-summary(linregC1)
+## Residuals vs. leverages
 
-###############################################################################
+ggplot(data = fortdata, aes(x = .hat, y = .stdresid)) + 
+        geom_point() + 
+        geom_smooth(se = FALSE)+
+        ggtitle( "Residual vs Leverage")
 
 
 ```
+```{r}
+
+library (caTools)
+library (rpart)
+library (rpart.plot)
+library (ROCR)
+
+satpred<-fread(file='satpred.csv')
+satpred <- satpred[,-c(1)]
+table(satpred$Guiana)
+
+set.seed (123)
+splG<- sample.split (satpred$Guiana , SplitRatio = 0.7)
+trainG <- subset (satpred, splG == TRUE)
+trainG <- trainG[, -c(5:8)]
+testG<- subset (satpred, splG == FALSE)
+trainG <- trainG[, -c(5:8)]
+
+GuianaCART <- rpart(Guiana ~ ., data=trainG, method= "class")
+prp (GuianaCART)
+
+printcp(GuianaCART)
+plotcp(GuianaCART )
+
+predG <- predict (GuianaCART, newdata = testG)
+pred.probG <- predG[,2]
+table(testG$Guiana, pred.probG >=0.32)
+
+accurracyGuiana <- (248+62)/(248+64+5+62) # 81.8 percent
+#predictCARTG <- predict (GuianaCART, newdata=testG, type="class")
+#table(testG$Guiana, predictCARTG)
+
+predGROCR <- prediction(pred.probG, testG$Guiana)
+perfGROCR <- performance(predGROCR, "tpr", "fpr")
+plot(perfGROCR, colorize=TRUE)
+####################################_
+
+set.seed (123)
+splB<- sample.split (satpred$Baikonur , SplitRatio = 0.7)
+trainB <- subset (satpred, splB == TRUE)
+testB<- subset (satpred, splB == FALSE)
+
+BaikonurCART <- rpart(Baikonur ~ ., data=trainB[, -c(4, 6:8)], method= "class")
+prp (BaikonurCART)
+printcp(BaikonurCART)
+plotcp(BaikonurCART)
+
+
+predB <- predict (BaikonurCART, newdata = testB)
+pred.probB <- predB[,2]
+table(testB$Baikonur, pred.probB >=0.2)
+
+######################################
+################Cape ###################
+set.seed (123)
+splC<- sample.split (satpred$Cape , SplitRatio = 0.7)
+trainC <- subset (satpred, splC == TRUE)
+testC<- subset (satpred, splC == FALSE)
+
+CapeCART <- rpart(Cape ~ ., data=trainC[, -c(4,5,7,8)], method= "class")
+
+prp (CapeCART)
+printcp(CapeCART)
+plotcp(CapeCART)
+
+
+predC <- predict (CapeCART, newdata = testC)
+pred.probC <- predC[,2]
+table(testC$Cape, pred.probC >=0.2)
+
+
+
+#######################################
+######### Vandenberg 
+
+set.seed (123)
+splV<- sample.split (satpred$Vandenberg , SplitRatio = 0.7)
+
+trainV <- subset (satpred, splV == TRUE)
+trainV <- trainV[, -c(4:6, 8)]
+testV<- subset (satpred, splV == FALSE)
+testV <- testV[, -c(4:6, 8)]
+
+VandenbergCART <- rpart(Vandenberg ~ ., data=trainV, method= "class")
+prp (VandenbergCART)
+printcp(VandenbergCART)
+plotcp(VandenbergCART)
+
+predV <- predict (VandenbergCART , newdata = testV)
+pred.probV <- predV[,2]
+table(testV$Vandenberg, pred.probV >=0.16)
+
+############################################
+
+splX<- sample.split (satpred$Xichang , SplitRatio = 0.7)
+trainX <- subset (satpred, splX == TRUE)
+trainX <- trainX[, -c(4:7)]
+testX<- subset (satpred, splX == FALSE)
+testX <- testX[, -c(4:7)]
+
+XichangCART <- rpart(Xichang ~ ., data=trainX, method= "class")
+prp (XichangCART)
+
+predX <- predict (XichangCART , newdata = testX)
+pred.probX <- predX[,2]
+table(testX$Xichang, pred.probX >=0.5)
+
+```
+
+
